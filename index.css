@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+ 
+h1 {
+    font-family: 'Noto Serif JP', sans-serif;
+}
+img[src^="image2"]  {
+    border-radius: 50%;  
+    width:  40px;       
+    height: 40px;       
+   
+}
+
+h2 {
+    font-size:20px;
+     font-family: 'Sawarabi Mincho', sans-serif;
+}
