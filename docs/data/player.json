@@ -8,10 +8,10 @@
     "url": "https://www.cho-kaguyahime.com/"
   },
   "played_charts": 2798,
-  "play_count": 12340,
+  "play_count": 12399,
   "clear_stats": {
-    "FULLCOMBO": "157(★7)",
-    "HARD": "1554",
+    "FULLCOMBO": "165(★7)",
+    "HARD": "1546",
     "NORMAL": "71",
     "EASY": "384",
     "FAILED": "632"
@@ -29,135 +29,135 @@
       "title": "Love & Justice [GOD]",
       "clear": "HARD CLEAR",
       "play_count": "118",
-      "ranking": "372/4006"
+      "ranking": "372/4007"
     },
     {
       "rank": "3",
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "246/757"
+      "ranking": "246/759"
     },
     {
       "rank": "4",
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2640"
+      "ranking": "701/2642"
     },
     {
       "rank": "5",
       "title": "subconsciousness [Freud]",
       "clear": "★FULLCOMBO",
       "play_count": "68",
-      "ranking": "50/1395"
+      "ranking": "50/1396"
     },
     {
       "rank": "6",
       "title": "Danger Love (cheap sound mix) [DX-]",
       "clear": "HARD CLEAR",
       "play_count": "58",
-      "ranking": "76/249"
+      "ranking": "76/250"
     },
     {
       "rank": "7",
       "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
       "play_count": "52",
-      "ranking": "241/1440"
+      "ranking": "241/1441"
     },
     {
       "rank": "8",
       "title": "gravitronicⅢ",
       "clear": "HARD CLEAR",
       "play_count": "51",
-      "ranking": "971/3896"
+      "ranking": "971/3895"
     },
     {
       "rank": "9",
       "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
       "clear": "EASY CLEAR",
       "play_count": "50",
-      "ranking": "312/2885"
+      "ranking": "312/2886"
     },
     {
       "rank": "10",
       "title": "G e n g a o z o - f o o n",
       "clear": "EASY CLEAR",
-      "play_count": "47",
-      "ranking": "857/2791"
+      "play_count": "48",
+      "ranking": "860/2791"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Arcadia -★1-",
+      "title": "Odin [Black_Another]",
       "clear": "FULL COMBO",
-      "play_count": "11",
-      "ranking": "676/19952"
+      "play_count": "17",
+      "ranking": "1338/14220"
     },
     {
       "rank": "2",
-      "title": "Daydreamer [SABOTHER]",
+      "title": "特効薬はカニピラフ (KANITHER)",
       "clear": "HARD CLEAR",
-      "play_count": "8",
-      "ranking": "714/8140"
+      "play_count": "5",
+      "ranking": "311/7726"
     },
     {
       "rank": "3",
-      "title": "BRILLIANT STAR ～煌星の雫～ [WHITE ANOTHER]",
+      "title": "滝行Lv28 [皆伝取りました]",
       "clear": "HARD CLEAR",
-      "play_count": "9",
-      "ranking": "379/9173"
+      "play_count": "6",
+      "ranking": "463/4883"
     },
     {
       "rank": "4",
-      "title": "Full of Tears -full-",
+      "title": "乙女ノススメ！ (Lovely)",
       "clear": "HARD CLEAR",
-      "play_count": "5",
-      "ranking": "821/13580"
+      "play_count": "2",
+      "ranking": "1047/5027"
     },
     {
       "rank": "5",
-      "title": "雪月夜鐘 -Monsther-",
+      "title": "ヒメタイプ [F]",
       "clear": "HARD CLEAR",
-      "play_count": "6",
-      "ranking": "1152/9702"
+      "play_count": "13",
+      "ranking": "611/5416"
     },
     {
       "rank": "6",
-      "title": "Ruriko FINAL (7KEYS) EX2",
+      "title": "LEthAl wEApOn (ANOTHER7)",
       "clear": "HARD CLEAR",
-      "play_count": "15",
-      "ranking": "1157/17620"
+      "play_count": "5",
+      "ranking": "505/9477"
     },
     {
       "rank": "7",
-      "title": "beyond the limit -7keyex-",
+      "title": "KRAKEN [Clover]",
       "clear": "HARD CLEAR",
-      "play_count": "4",
-      "ranking": "478/8194"
+      "play_count": "10",
+      "ranking": "702/5778"
     },
     {
       "rank": "8",
-      "title": "Ready to Go (^ω^)",
-      "clear": "FULL COMBO",
-      "play_count": "6",
-      "ranking": "297/5237"
+      "title": "FELYS EX",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "2363/11379"
     },
     {
       "rank": "9",
-      "title": "Freja [SP ANOTHER]",
+      "title": "A c i - L - A",
       "clear": "HARD CLEAR",
-      "play_count": "34",
-      "ranking": "173/13057"
+      "play_count": "11",
+      "ranking": "584/16520"
     },
     {
       "rank": "10",
-      "title": "Wasabi 激辛",
+      "title": "Lucifer",
       "clear": "HARD CLEAR",
-      "play_count": "7",
-      "ranking": "424/18357"
+      "play_count": "8",
+      "ranking": "415/5271"
     }
   ],
   "recent_courses": [
@@ -166,21 +166,21 @@
       "title": "NEW GENERATION 発狂皆伝",
       "clear": "FAILED",
       "play_count": "3",
-      "ranking": "82/132"
+      "ranking": "82/134"
     },
     {
       "rank": "2",
       "title": "GENOSIDE 2018 段位認定 発狂九段",
       "clear": "CLEAR",
       "play_count": "12",
-      "ranking": "156/2750"
+      "ranking": "156/2753"
     },
     {
       "rank": "3",
       "title": "GENOSIDE 2018 段位認定 発狂二段",
       "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "133/4355"
+      "ranking": "133/4356"
     },
     {
       "rank": "4",
@@ -215,7 +215,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂皆伝",
       "clear": "CLEAR",
       "play_count": "23",
-      "ranking": "680/1875"
+      "ranking": "680/1876"
     },
     {
       "rank": "9",
@@ -255,7 +255,7 @@
     }
   ],
   "rivals": [
-    "ツマヨウ寺小鈎ハレ徒町小鈴桐間紗路黒部ナノカ2p当たり12p当たり2AYA.K"
+    "ツマヨウ寺 小鈎ハレ 徒町小鈴 桐間紗路 黒部ナノカ 2p当たり1 2p当たり2 AYA.K"
   ],
-  "last_updated": "2026-02-19T23:49:53.192084"
+  "last_updated": "2026-02-25T16:31:14.970139"
 }
