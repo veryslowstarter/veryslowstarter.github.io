@@ -298,46 +298,46 @@ body {
 }
 
 /* クリア状態によるスタイル */
-.clear-fullcombo {
+/* FULL COMBO - 薄い黄色 */
+.clear-fullcombo,
+.clear-fullcombo-full-combo {
     background-color: #fff3cd !important;
     border-left: 4px solid #ffc107;
 }
 
+/* ★FULL COMBO - 薄いピンク */
 .clear-★fullcombo {
     background-color: #ffe6f0 !important;
     border-left: 4px solid #ff69b4;
 }
 
-.clear-hard {
-    background-color: #ffe6e6 !important;
-    border-left: 4px solid #ff6b6b;
-}
-
-.clear-hardclear {
-    background-color: #ffe6e6 !important;
-    border-left: 4px solid #ff6b6b;
-}
-
+/* HARD CLEAR - 薄い赤 */
+.clear-hard,
+.clear-hardclear,
 .clear-hardfailed {
     background-color: #ffe6e6 !important;
     border-left: 4px solid #ff6b6b;
 }
 
+/* CLEAR - 薄い青 */
 .clear-clear,
 .clear-normal {
     background-color: #cce5ff !important;
     border-left: 4px solid #007bff;
 }
 
+/* EASY CLEAR - 薄い緑 */
 .clear-easyclear,
 .clear-easy {
     background-color: #d4edda !important;
     border-left: 4px solid #28a745;
 }
 
+/* FAILED - 色なし */
 .clear-failed {
     background-color: #fff !important;
     border-left: 4px solid #ddd;
+}
 }
 
 .songs-table .rank {

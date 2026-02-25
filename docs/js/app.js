@@ -255,29 +255,49 @@ function escapeHtml(text) {
 
 function convertToLinks(text) {
     if (!text) return '';
-    // ↓で分割してセクションごとに処理
+    
+    // ↓ で分割してセクションごとに処理
     const sections = text.split('↓');
     let html = '';
     
     for (let i = 0; i < sections.length; i++) {
         const section = sections[i].trim();
-        
         if (!section) continue;
         
-        // セクションをエスケープ
-        let escapedSection = escapeHtml(section);
+        // URL パターン: https://...185532 の形式
+        // 185532 の後ろにあるテキストを抽出
+        const urlMatch = section.match(/(https?:\/\/[^\/\s]+\/[^\/]*185532)([^\s]*)\s*(.*)/i);
         
-        // URLをリンクに変換
-        escapedSection = escapedSection.replace(
-            /(https?:\/\/[^\s\<\>"']+)/gi,
-            '<a href="$1" target="_blank">$1</a>'
-        );
-        
-        // 最後のセクション以外は、後ろに<br>を追加
-        if (i < sections.length - 1 && sections[i + 1].trim()) {
-            html += '↓<br>' + escapedSection + '<br>';
+        if (urlMatch) {
+            const baseUrl = urlMatch[1];  // https://...185532
+            const suffix = urlMatch[2];   // 185532 の直後の文字（例：overjoy）
+            const remaining = urlMatch[3]; // 残りのテキスト
+            
+            // URL をリンクに変換
+            const link = `<a href="${baseUrl}" target="_blank">${baseUrl}</a>`;
+            
+            // suffix と remaining を改行で分割
+            if (suffix || remaining) {
+                html += link + '<br>';
+                if (suffix) html += suffix + ' ';
+                if (remaining) html += remaining + '<br>';
+            } else {
+                html += link + '<br>';
+            }
         } else {
+            // URL がない場合は通常のテキスト処理
+            let escapedSection = escapeHtml(section);
+            
+            // URL をリンクに変換
+            escapedSection = escapedSection.replace(
+                /(https?:\/\/[^\s\<\>"']+)/gi,
+                '<a href="$1" target="_blank">$1</a>'
+            );
+            
             html += escapedSection;
+            if (i < sections.length - 1) {
+                html += '<br>';
+            }
         }
     }
     
