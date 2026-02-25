@@ -72,8 +72,25 @@ class LR2IRScraper:
     
     def _extract_introduction(self, soup):
         """自己紹介を抽出"""
-        intro = self._extract_text_from_table(soup, '自己紹介')
-        return intro if intro else '-'
+        try:
+            for row in soup.find_all('tr'):
+                cells = row.find_all(['td', 'th'])
+                if not cells:
+                    continue
+                    
+                for i, cell in enumerate(cells):
+                    if '自己紹介' in cell.get_text():
+                        if i + 1 < len(cells):
+                            intro_cell = cells[i + 1]
+                            # <br> タグを改行に置換
+                            for br in intro_cell.find_all('br'):
+                                br.replace_with('\n')
+                            # テキストを取得
+                            intro_text = intro_cell.get_text()
+                            return intro_text.strip() if intro_text else '-'
+        except:
+            pass
+        return '-'
     
     def _extract_homepage(self, soup):
         """ホームページを抽出"""
@@ -159,15 +176,16 @@ class LR2IRScraper:
                         # ライバル情報は次のセル
                         if i + 1 < len(cells):
                             rival_cell = cells[i + 1]
-                            # <br> タグを改行に置換
+                            # <br> タグと複数の空白をスペースに置換
                             for br in rival_cell.find_all('br'):
-                                br.replace_with('\n')
+                                br.replace_with(' ')
                             
-                            # テキストを取得
+                            # テキストを取得してスペース区切りで分割
                             rival_text = rival_cell.get_text()
-                            # 改行で分割，空白を削除
-                            lines = [line.strip() for line in rival_text.split('\n') if line.strip()]
-                            rivals.extend(lines)
+                            # 複数の空白を単一スペースに正規化
+                            rival_text = re.sub(r'\s+', ' ', rival_text.strip())
+                            # スペースで分割
+                            rivals = [r.strip() for r in rival_text.split(' ') if r.strip()]
                         return rivals  # 最初のライバル行を処理したら終了
         except Exception as e:
             pass
