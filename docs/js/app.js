@@ -256,10 +256,53 @@ function escapeHtml(text) {
 function convertToLinks(text) {
     if (!text) return '';
     
-    // テキストをそのまま表示し、改行を保持
-    let html = '';
-    const lines = text.split('\n');
+    // 改行がない場合は、データ内の改行文字を検出して処理
+    let lines = [];
+    if (text.includes('\n')) {
+        // 改行で分割
+        lines = text.split('\n').map(l => l.trim()).filter(l => l !== '');
+    } else {
+        // 改行がない場合：。ラベル↓URLパターンで分割
+        // 1. まず最後の「。」までを本文とします
+        const lastDotIndex = text.lastIndexOf('。');
+        let mainText = text;
+        let urlPart = '';
+        
+        if (lastDotIndex !== -1 && lastDotIndex < text.length - 1) {
+            mainText = text.substring(0, lastDotIndex + 1);
+            urlPart = text.substring(lastDotIndex + 1);
+        }
+        
+        // 本文を句点「。」で分割
+        const sentences = mainText.split('。').filter(s => s.trim() !== '');
+        sentences.forEach(s => {
+            lines.push(s.trim() + '。');
+        });
+        
+        // URL部分をラベル↓URLで分割
+        if (urlPart) {
+            // ラベル↓URLパターンを抽出
+            const urlRegex = /([^↓\n]+)↓(https?:\/\/[^\s@]+)/g;
+            let match;
+            while ((match = urlRegex.exec(urlPart)) !== null) {
+                const label = match[1].trim();
+                const url = match[2].trim();
+                if (label && url) {
+                    lines.push(label + '↓');
+                    lines.push(url);
+                }
+            }
+            
+            // @で始まる残りのテキスト
+            const atmatch = urlPart.match(/@[^\s]+/);
+            if (atmatch) {
+                lines.push(atmatch[0]);
+            }
+        }
+    }
     
+    // HTML生成
+    let html = '';
     for (let line of lines) {
         line = line.trim();
         if (!line) {
@@ -271,7 +314,7 @@ function convertToLinks(text) {
         if (line.match(/^https?:\/\//)) {
             // URLだけの行
             html += '<a href="' + escapeHtml(line) + '" target="_blank">' + escapeHtml(line) + '</a><br>';
-        } else if (line.includes('↓')) {
+        } else if (line.includes('↓') && !line.match(/^https?:\/\//)) {
             // ラベル↓の行
             html += escapeHtml(line) + '<br>';
         } else if (line.startsWith('@')) {

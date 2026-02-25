@@ -301,10 +301,15 @@ body {
 /* クリア状態によるスタイル */
 /* FULL COMBO - 薄い黄色 */
 .clear-fullcombo,
-.clear-full-combo,
-.clear-★fullcombo {
+.clear-full-combo {
     background-color: #fff3cd !important;
     border-left: 4px solid #ffc107;
+}
+
+/* ★FULL COMBO - 薄いピンク */
+.clear-★fullcombo {
+    background-color: #ffe6f0 !important;
+    border-left: 4px solid #ff69b4;
 }
 
 /* HARD CLEAR - 薄い赤 */
