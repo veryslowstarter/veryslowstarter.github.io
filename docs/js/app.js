@@ -255,42 +255,61 @@ function escapeHtml(text) {
 
 function convertToLinks(text) {
     if (!text) return '';
-    // テキストをエスケープ
-    let html = escapeHtml(text);
-    // 複数の改行パターンに対応
-    // まず、URL の直前にある改行↓ を <br> に変換
-    html = html.replace(/↓/g, '<br>↓');
-    // その他の改行文字を <br> に変換
-    html = html.replace(/\n/g, '<br>');
-    html = html.replace(/\r/g, '');
-    // URLをリンクに変換
-    html = html.replace(
-        /(https?:\/\/[^\s\<\>"']+)/gi,
-        '<a href="$1" target="_blank">$1</a>'
-    );
-    return html;
+    // ↓で分割してセクションごとに処理
+    const sections = text.split('↓');
+    let html = '';
+    
+    for (let i = 0; i < sections.length; i++) {
+        const section = sections[i].trim();
+        
+        if (!section) continue;
+        
+        // セクションをエスケープ
+        let escapedSection = escapeHtml(section);
+        
+        // URLをリンクに変換
+        escapedSection = escapedSection.replace(
+            /(https?:\/\/[^\s\<\>"']+)/gi,
+            '<a href="$1" target="_blank">$1</a>'
+        );
+        
+        // 最後のセクション以外は、後ろに<br>を追加
+        if (i < sections.length - 1 && sections[i + 1].trim()) {
+            html += '↓<br>' + escapedSection + '<br>';
+        } else {
+            html += escapedSection;
+        }
+    }
+    
+    return html || text;
 }
 
 function getRivals(rivalsArray) {
     if (!rivalsArray || rivalsArray.length === 0) return [];
     
-    // rivalsArray の最初の要素が複数のライバル名を含む可能性がある
-    const firstRival = rivalsArray[0];
+    let rivals = [];
     
-    // もし複数のライバル名が連結されている場合は個別に分ける
-    // スクレイパーが改行で分けている場合は改行で分割
-    if (firstRival.includes('\n')) {
-        return firstRival.split('\n').filter(r => r.trim());
+    // rivalsArray の各要素を処理
+    for (const item of rivalsArray) {
+        if (!item || !item.trim()) continue;
+        
+        // 1. 改行で分割される場合
+        if (item.includes('\n')) {
+            const split = item.split('\n').filter(r => r.trim());
+            rivals = rivals.concat(split);
+        }
+        // 2. 複数のライバル名が連結されている場合（スペースなし）
+        // 日本語の連結されたテキストから個別の名前を抽出
+        else if (item.length > 10) {
+            // 複数の名前が連結されているケースをリスト化
+            // この場合はスクレイパー側で分割される必要がある
+            rivals.push(item);
+        } else {
+            rivals.push(item);
+        }
     }
     
-    // rivalsArray が複数の要素を持つ場合
-    if (rivalsArray.length > 1) {
-        return rivalsArray;
-    }
-    
-    // 単一の文字列の場合、ここでは分割しない
-    // （スクレイパーで適切に処理する必要がある）
-    return rivalsArray;
+    return rivals.length > 0 ? rivals : rivalsArray;
 }
 
 function getRivalCount(rivalsArray) {

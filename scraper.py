@@ -159,10 +159,13 @@ class LR2IRScraper:
                         break
             
             if rival_row:
-                # <br> タグで分割されたテキストを抽出
+                # <br> タグで分割されたテキストを個別に抽出
+                for br_tag in rival_row.find_all('br'):
+                    br_tag.replace_with('\n')
+                
                 rival_text = rival_row.get_text()
-                # 複数の改行パターンに対応
-                lines = [line.strip() for line in rival_text.split() if line.strip()]
+                # 改行で分割
+                lines = [line.strip() for line in rival_text.split('\n') if line.strip() and line.strip() != 'ライバル']
                 rivals = lines if lines else []
         except:
             pass
