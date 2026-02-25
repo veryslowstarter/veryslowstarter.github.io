@@ -129,7 +129,7 @@ function renderPlayerProfile(data, container) {
                 </thead>
                 <tbody>
                     ${data.favorite_songs.map(song => `
-                    <tr class="clear-${song.clear.replace(/\\s+/g, '').toLowerCase()}">
+                    <tr class="clear-${song.clear.replace(/[^\w\s]/g, '').replace(/\s+/g, '').toLowerCase()}">
                         <td class="rank">${escapeHtml(song.rank)}</td>
                         <td class="title">${escapeHtml(song.title)}</td>
                         <td class="clear">${escapeHtml(song.clear)}</td>
@@ -158,7 +158,7 @@ function renderPlayerProfile(data, container) {
                 </thead>
                 <tbody>
                     ${data.recent_songs.map(song => `
-                    <tr class="clear-${song.clear.replace(/\\s+/g, '').toLowerCase()}">
+                    <tr class="clear-${song.clear.replace(/[^\w\s]/g, '').replace(/\s+/g, '').toLowerCase()}">
                         <td class="rank">${escapeHtml(song.rank)}</td>
                         <td class="title">${escapeHtml(song.title)}</td>
                         <td class="clear">${escapeHtml(song.clear)}</td>
@@ -187,7 +187,7 @@ function renderPlayerProfile(data, container) {
                 </thead>
                 <tbody>
                     ${data.recent_courses.map(course => `
-                    <tr class="clear-${course.clear.replace(/\\s+/g, '').toLowerCase()}">
+                    <tr class="clear-${course.clear.replace(/[^\w\s]/g, '').replace(/\s+/g, '').toLowerCase()}">
                         <td class="rank">${escapeHtml(course.rank)}</td>
                         <td class="title">${escapeHtml(course.title)}</td>
                         <td class="clear">${escapeHtml(course.clear)}</td>
@@ -256,14 +256,15 @@ function escapeHtml(text) {
 function convertToLinks(text) {
     if (!text) return '';
     
-    // 改行がない場合は、データ内の改行文字を検出して処理
+    // 改行がある場合は改行で分割
     let lines = [];
     if (text.includes('\n')) {
-        // 改行で分割
-        lines = text.split('\n').map(l => l.trim()).filter(l => l !== '');
+        // 改行で分割して、各行の前後の空白を削除、空行をフィルタ
+        lines = text.split('\n')
+            .map(l => l.trim())
+            .filter(l => l !== '' && l !== '　');  // 空行と全角空白を除外
     } else {
         // 改行がない場合：。ラベル↓URLパターンで分割
-        // 1. まず最後の「。」までを本文とします
         const lastDotIndex = text.lastIndexOf('。');
         let mainText = text;
         let urlPart = '';
@@ -305,7 +306,8 @@ function convertToLinks(text) {
     let html = '';
     for (let line of lines) {
         line = line.trim();
-        if (!line) {
+        // 再度念のため空白チェック
+        if (!line || line === '　') {
             html += '<br>';
             continue;
         }

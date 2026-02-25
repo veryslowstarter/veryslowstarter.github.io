@@ -306,12 +306,6 @@ body {
     border-left: 4px solid #ffc107;
 }
 
-/* ★FULL COMBO - 薄いピンク */
-.clear-★fullcombo {
-    background-color: #ffe6f0 !important;
-    border-left: 4px solid #ff69b4;
-}
-
 /* HARD CLEAR - 薄い赤 */
 .clear-hardclear,
 .clear-hard-clear,
@@ -338,6 +332,7 @@ body {
 .clear-failed {
     background-color: #fff !important;
     border-left: 4px solid #ddd;
+}
 }
 .clear-easyclear,
 .clear-easy {
