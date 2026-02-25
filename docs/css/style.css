@@ -133,19 +133,61 @@ body {
     color: #333;
 }
 
-/* セクション */
-.section {
-    margin: 20px 0;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    border-left: 4px solid #764ba2;
-}
-
 .section h3 {
     color: #764ba2;
     margin-bottom: 10px;
     font-size: 1.3em;
+}
+
+.introduction {
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.8;
+}
+
+.introduction a {
+    color: #667eea;
+    text-decoration: underline;
+}
+
+.introduction a:hover {
+    color: #764ba2;
+}
+
+.info-item a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+.player-info > h2 a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.player-info > h2 a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* ライバル表示 */
+.rival-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rival-item {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.95em;
+    box-shadow: 0 2px 5px rgba(102, 126, 234, 0.3);
 }
 
 .introduction {
@@ -256,33 +298,37 @@ body {
 }
 
 /* クリア状態によるスタイル */
-.clear-fullcombo,
-.clear-★fullcombo {
+.clear-fullcombo {
     background-color: #fff3cd !important;
     border-left: 4px solid #ffc107;
 }
 
+.clear-★fullcombo {
+    background-color: #ffe6f0 !important;
+    border-left: 4px solid #ff69b4;
+}
+
 .clear-hardclear,
 .clear-hardfailed {
-    background-color: #d1ecf1 !important;
-    border-left: 4px solid #17a2b8;
+    background-color: #ffe6e6 !important;
+    border-left: 4px solid #ff6b6b;
 }
 
 .clear-clear,
 .clear-normal {
-    background-color: #d4edda !important;
-    border-left: 4px solid #28a745;
-}
-
-.clear-easyclear,
-.clear-easy {
     background-color: #cce5ff !important;
     border-left: 4px solid #007bff;
 }
 
+.clear-easyclear,
+.clear-easy {
+    background-color: #d4edda !important;
+    border-left: 4px solid #28a745;
+}
+
 .clear-failed {
-    background-color: #f8d7da !important;
-    border-left: 4px solid #dc3545;
+    background-color: #fff !important;
+    border-left: 4px solid #ddd;
 }
 
 .songs-table .rank {
@@ -302,6 +348,7 @@ body {
 .songs-table .play-count,
 .songs-table .ranking {
     text-align: center;
+    font-weight: 500;
 }
 
 /* ライバル */

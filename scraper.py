@@ -149,10 +149,19 @@ class LR2IRScraper:
         try:
             rival_text = self._extract_text_from_table(soup, 'ライバル')
             if rival_text:
-                rivals = [r.strip() for r in rival_text.split() if r.strip()]
+                # 改行で分割される可能性を考慮
+                lines = rival_text.split('\n')
+                for line in lines:
+                    line = line.strip()
+                    if line and line != 'ライバル':
+                        rivals.append(line)
+                
+                # もし改行で分割されなかった場合は、空白で分割
+                if len(rivals) == 0 or len(rivals) == 1:
+                    rivals = [r.strip() for r in rival_text.split() if r.strip()]
         except:
             pass
-        return rivals
+        return rivals if rivals else []
     
     def _extract_bbs_comments(self, table):
         """一行BBSを抽出"""

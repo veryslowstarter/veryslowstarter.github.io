@@ -31,11 +31,11 @@ function renderPlayerProfile(data, container) {
     const html = `
         <!-- プレイヤー基本情報 -->
         <section class="player-info">
-            <h2>${escapeHtml(data.player_name)}</h2>
+            <h2><a href="http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=mypage&playerid=${data.lr2_id}" target="_blank">${escapeHtml(data.player_name)}</a></h2>
             <div class="info-grid">
                 <div class="info-item">
                     <span class="label">LR2ID:</span>
-                    <span class="value">${data.lr2_id}</span>
+                    <span class="value"><a href="http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=mypage&playerid=${data.lr2_id}" target="_blank">${data.lr2_id}</a></span>
                 </div>
                 <div class="info-item">
                     <span class="label">段位認定:</span>
@@ -47,7 +47,7 @@ function renderPlayerProfile(data, container) {
                 <h3>自己紹介</h3>
                 <p class="introduction">
                     ${data.introduction && data.introduction !== '-' 
-                        ? escapeHtml(data.introduction) 
+                        ? convertToLinks(data.introduction) 
                         : '紹介文がまだ設定されていません'}
                 </p>
             </div>
@@ -106,9 +106,9 @@ function renderPlayerProfile(data, container) {
         <!-- ライバル -->
         ${data.rivals && data.rivals.length > 0 ? `
         <section class="rivals">
-            <h2>ライバル (${data.rivals.length}人)</h2>
+            <h2>ライバル (${getRivalCount(data.rivals)}人)</h2>
             <div class="rival-list">
-                ${data.rivals.map(rival => `<span class="rival-tag">${escapeHtml(rival)}</span>`).join('')}
+                ${getRivals(data.rivals).map(rival => `<div class="rival-item">${escapeHtml(rival)}</div>`).join('')}
             </div>
         </section>
         ` : ''}
@@ -251,4 +251,44 @@ function escapeHtml(text) {
         "'": '&#039;'
     };
     return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+function convertToLinks(text) {
+    if (!text) return '';
+    // 改行を <br> に変換
+    let html = text.replace(/\n/g, '<br>');
+    // URLをリンクに変換
+    html = html.replace(
+        /(https?:\/\/[^\s\<\>"']+)/gi,
+        '<a href="$1" target="_blank">$1</a>'
+    );
+    return html;
+}
+
+function getRivals(rivalsArray) {
+    if (!rivalsArray || rivalsArray.length === 0) return [];
+    
+    // rivalsArray の最初の要素が複数のライバル名を含む可能性がある
+    const firstRival = rivalsArray[0];
+    
+    // もし複数のライバル名が連結されている場合は個別に分ける
+    // スクレイパーが改行で分けている場合は改行で分割
+    if (firstRival.includes('\n')) {
+        return firstRival.split('\n').filter(r => r.trim());
+    }
+    
+    // rivalsArray が複数の要素を持つ場合
+    if (rivalsArray.length > 1) {
+        return rivalsArray;
+    }
+    
+    // 単一の文字列の場合、ここでは分割しない
+    // （スクレイパーで適切に処理する必要がある）
+    return rivalsArray;
+}
+
+function getRivalCount(rivalsArray) {
+    if (!rivalsArray || rivalsArray.length === 0) return 0;
+    const rivals = getRivals(rivalsArray);
+    return rivals.length;
 }
