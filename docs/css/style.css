@@ -299,7 +299,7 @@ body {
 }
 
 /* クリア状態によるスタイル */
-/* FULL COMBO - 薄い黄色 */
+/* FULL COMBO - 薄い黄色（★FULLCOMBOも含む） */
 .clear-fullcombo,
 .clear-full-combo {
     background-color: #fff3cd !important;
@@ -333,11 +333,6 @@ body {
     background-color: #fff !important;
     border-left: 4px solid #ddd;
 }
-}
-.clear-easyclear,
-.clear-easy {
-    background-color: #d4edda !important;
-    border-left: 4px solid #28a745;
 }
 
 /* FAILED - 色なし */

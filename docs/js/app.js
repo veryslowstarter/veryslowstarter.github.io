@@ -45,11 +45,7 @@ function renderPlayerProfile(data, container) {
 
             <div class="section">
                 <h3>自己紹介</h3>
-                <p class="introduction">
-                    ${data.introduction && data.introduction !== '-' 
-                        ? convertToLinks(data.introduction) 
-                        : '紹介文がまだ設定されていません'}
-                </p>
+                <p class="introduction">${data.introduction && data.introduction !== '-' ? convertToLinks(data.introduction) : '紹介文がまだ設定されていません'}</p>
             </div>
 
             ${data.homepage ? `
