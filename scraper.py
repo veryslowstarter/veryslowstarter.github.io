@@ -147,28 +147,31 @@ class LR2IRScraper:
         """ライバルを抽出"""
         rivals = []
         try:
-            # ライバル行を検索
-            rival_row = None
+            # ライバル情報を検索
             for row in soup.find_all('tr'):
                 cells = row.find_all(['td', 'th'])
+                if not cells:
+                    continue
+                    
                 for i, cell in enumerate(cells):
-                    if 'ライバル' in cell.get_text():
-                        # ライバル情報は次のセルにある
+                    cell_text = cell.get_text().strip()
+                    if 'ライバル' in cell_text:
+                        # ライバル情報は次のセル
                         if i + 1 < len(cells):
-                            rival_row = cells[i + 1]
-                        break
-            
-            if rival_row:
-                # <br> タグで分割されたテキストを個別に抽出
-                for br_tag in rival_row.find_all('br'):
-                    br_tag.replace_with('\n')
-                
-                rival_text = rival_row.get_text()
-                # 改行で分割
-                lines = [line.strip() for line in rival_text.split('\n') if line.strip() and line.strip() != 'ライバル']
-                rivals = lines if lines else []
-        except:
+                            rival_cell = cells[i + 1]
+                            # <br> タグを改行に置換
+                            for br in rival_cell.find_all('br'):
+                                br.replace_with('\n')
+                            
+                            # テキストを取得
+                            rival_text = rival_cell.get_text()
+                            # 改行で分割，空白を削除
+                            lines = [line.strip() for line in rival_text.split('\n') if line.strip()]
+                            rivals.extend(lines)
+                        return rivals  # 最初のライバル行を処理したら終了
+        except Exception as e:
             pass
+        
         return rivals if rivals else []
     
     def _extract_bbs_comments(self, table):
