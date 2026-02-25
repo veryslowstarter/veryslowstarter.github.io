@@ -1,0 +1,18 @@
+﻿# GitHub Pages Configuration
+# Disable Jekyll processing
+plugins:
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - .github
+  - venv
+  - __pycache__
+  - .gitignore
+  - README.md
+  - requirements.txt
+  - scraper.py
+  - app.py
+  - fetch_player_data.py
+  - static
+  - templates

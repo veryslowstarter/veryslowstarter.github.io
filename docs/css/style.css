@@ -1,0 +1,462 @@
+﻿/* 全体スタイル */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Yu Gothic', 'Hiragino Sans', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ヘッダー */
+.header {
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #667eea;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar form {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.search-bar button:hover {
+    background: #764ba2;
+}
+
+/* メインコンテンツ */
+.content {
+    flex: 1;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* プレイヤー情報セクション */
+.player-info, .statistics, .rivals, .songs, .courses, .bbs {
+    margin-bottom: 40px;
+}
+
+.player-info > h2 {
+    font-size: 2em;
+    color: #667eea;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.player-info > h2::after {
+    content: '';
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.info-item .label {
+    display: block;
+    font-weight: bold;
+    color: #667eea;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.info-item .value {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* セクション */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #764ba2;
+}
+
+.section h3 {
+    color: #764ba2;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.introduction {
+    color: #555;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.homepage-link {
+    display: inline-block;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.homepage-link:hover {
+    background: #667eea;
+    color: white;
+    text-decoration: underline;
+}
+
+/* 統計 */
+.statistics h2,
+.rivals h2,
+.songs h2,
+.courses h2,
+.bbs h2 {
+    font-size: 1.8em;
+    color: #667eea;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9em;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* テーブル */
+.clear-stats-table,
+.songs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.clear-stats-table thead,
+.songs-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.clear-stats-table th,
+.songs-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.clear-stats-table td,
+.songs-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.clear-stats-table tbody tr:hover,
+.songs-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.clear-stats-table tbody tr:nth-child(even),
+.songs-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* クリア状態によるスタイル */
+.clear-fullcombo,
+.clear-★fullcombo {
+    background-color: #fff3cd !important;
+    border-left: 4px solid #ffc107;
+}
+
+.clear-hardclear,
+.clear-hardfailed {
+    background-color: #d1ecf1 !important;
+    border-left: 4px solid #17a2b8;
+}
+
+.clear-clear,
+.clear-normal {
+    background-color: #d4edda !important;
+    border-left: 4px solid #28a745;
+}
+
+.clear-easyclear,
+.clear-easy {
+    background-color: #cce5ff !important;
+    border-left: 4px solid #007bff;
+}
+
+.clear-failed {
+    background-color: #f8d7da !important;
+    border-left: 4px solid #dc3545;
+}
+
+.songs-table .rank {
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+}
+
+.songs-table .title {
+    font-weight: 500;
+}
+
+.songs-table .clear {
+    font-weight: bold;
+}
+
+.songs-table .play-count,
+.songs-table .ranking {
+    text-align: center;
+}
+
+/* ライバル */
+.rival-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.rival-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.95em;
+    box-shadow: 0 2px 5px rgba(102, 126, 234, 0.3);
+    transition: transform 0.3s;
+}
+
+.rival-tag:hover {
+    transform: translateY(-2px);
+}
+
+/* 一行BBS */
+.bbs-comments {
+    margin-top: 15px;
+}
+
+.bbs-comment {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #667eea;
+    border-radius: 5px;
+}
+
+.comment-player {
+    color: #667eea;
+    font-size: 0.95em;
+}
+
+.comment-date {
+    color: #999;
+    font-size: 0.85em;
+    margin-left: 10px;
+}
+
+.comment-text {
+    margin-top: 8px;
+    color: #555;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.last-updated {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85em;
+}
+
+/* ローディング表示 */
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #667eea;
+}
+
+.loading::after {
+    content: '';
+    display: inline-block;
+    animation: spin 1s linear infinite;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #667eea;
+    border-top-color: transparent;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* レスポンシブ */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .player-info > h2 {
+        font-size: 1.5em;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-value {
+        font-size: 2em;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .search-bar form {
+        flex-direction: column;
+    }
+
+    .search-bar input,
+    .search-bar button {
+        width: 100%;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    .songs-table th,
+    .songs-table td {
+        padding: 10px;
+    }
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.player-info,
+.statistics,
+.rivals,
+.songs,
+.courses,
+.bbs {
+    animation: fadeIn 0.5s ease-out;
+}
