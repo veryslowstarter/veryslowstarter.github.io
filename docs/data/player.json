@@ -8,7 +8,7 @@
     "url": "https://www.cho-kaguyahime.com/"
   },
   "played_charts": 2798,
-  "play_count": 12400,
+  "play_count": 12399,
   "clear_stats": {
     "FULLCOMBO": "165(★7)",
     "HARD": "1546",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "ERIS MX",
-      "clear": "FULL COMBO",
-      "play_count": "29",
-      "ranking": "190/22636"
-    },
-    {
-      "rank": "2",
       "title": "Odin [Black_Another]",
       "clear": "FULL COMBO",
       "play_count": "17",
       "ranking": "1338/14220"
     },
     {
-      "rank": "3",
+      "rank": "2",
       "title": "特効薬はカニピラフ (KANITHER)",
       "clear": "HARD CLEAR",
       "play_count": "5",
       "ranking": "311/7726"
     },
     {
-      "rank": "4",
+      "rank": "3",
       "title": "滝行Lv28 [皆伝取りました]",
       "clear": "HARD CLEAR",
       "play_count": "6",
       "ranking": "463/4883"
     },
     {
-      "rank": "5",
+      "rank": "4",
       "title": "乙女ノススメ！ (Lovely)",
       "clear": "HARD CLEAR",
       "play_count": "2",
       "ranking": "1047/5027"
     },
     {
-      "rank": "6",
+      "rank": "5",
       "title": "ヒメタイプ [F]",
       "clear": "HARD CLEAR",
       "play_count": "13",
       "ranking": "611/5416"
     },
     {
-      "rank": "7",
+      "rank": "6",
       "title": "LEthAl wEApOn (ANOTHER7)",
       "clear": "HARD CLEAR",
       "play_count": "5",
       "ranking": "505/9477"
     },
     {
-      "rank": "8",
+      "rank": "7",
       "title": "KRAKEN [Clover]",
       "clear": "HARD CLEAR",
       "play_count": "10",
       "ranking": "702/5778"
     },
     {
-      "rank": "9",
+      "rank": "8",
       "title": "FELYS EX",
       "clear": "HARD CLEAR",
       "play_count": "2",
       "ranking": "2363/11379"
     },
     {
-      "rank": "10",
+      "rank": "9",
       "title": "A c i - L - A",
       "clear": "HARD CLEAR",
       "play_count": "11",
       "ranking": "584/16520"
+    },
+    {
+      "rank": "10",
+      "title": "Lucifer",
+      "clear": "HARD CLEAR",
+      "play_count": "8",
+      "ranking": "415/5271"
     }
   ],
   "recent_courses": [
@@ -257,5 +257,5 @@
   "rivals": [
     "ツマヨウ寺 小鈎ハレ 徒町小鈴 桐間紗路 黒部ナノカ 2p当たり1 2p当たり2 AYA.K"
   ],
-  "last_updated": "2026-02-25T16:59:24.777572"
+  "last_updated": "2026-02-25T16:39:02.585107"
 }

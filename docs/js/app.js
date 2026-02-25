@@ -256,31 +256,35 @@ function escapeHtml(text) {
 function convertToLinks(text) {
     if (!text) return '';
     
-    // 最後の「。」を見つけて本文とリンク部分に分割
-    const lastDotIndex = text.lastIndexOf('。');
-    if (lastDotIndex === -1) {
-        return escapeHtml(text);
-    }
+    // テキストをそのまま表示し、改行を保持
+    let html = '';
+    const lines = text.split('\n');
     
-    // 本文部分（最後の「。」まで）
-    const mainText = text.substring(0, lastDotIndex + 1);
-    // URL部分（最後の「。」の後）
-    const urlPart = text.substring(lastDotIndex + 1);
-    
-    let html = escapeHtml(mainText);
-    
-    // URL部分を処理：ラベル↓URL のペアを抽出
-    // パターン：ラベル↓https://...185532 または ラベル↓https://...playerid=185532
-    const regex = /([^↓\n@]+)↓(https?:\/\/[^\s@]+?(?:185532|playerid=185532))/g;
-    let match;
-    
-    while ((match = regex.exec(urlPart)) !== null) {
-        const label = match[1].trim();
-        const url = match[2].trim();
+    for (let line of lines) {
+        line = line.trim();
+        if (!line) {
+            html += '<br>';
+            continue;
+        }
         
-        html += '<br>' + escapeHtml(label) + '↓<br>';
-        html += '<a href="' + escapeHtml(url) + '" target="_blank">' + escapeHtml(url) + '</a>';
+        // URLかラベル↓URLのパターンを検出
+        if (line.match(/^https?:\/\//)) {
+            // URLだけの行
+            html += '<a href="' + escapeHtml(line) + '" target="_blank">' + escapeHtml(line) + '</a><br>';
+        } else if (line.includes('↓')) {
+            // ラベル↓の行
+            html += escapeHtml(line) + '<br>';
+        } else if (line.startsWith('@')) {
+            // @で始まるTwitterハンドル
+            html += escapeHtml(line) + '<br>';
+        } else {
+            // 通常のテキスト行
+            html += escapeHtml(line) + '<br>';
+        }
     }
+    
+    // 最後の<br>を削除
+    html = html.replace(/<br>$/, '');
     
     return html;
 }
@@ -290,25 +294,25 @@ function getRivals(rivalsArray) {
     
     let result = [];
     
+    // rival配列の各要素を処理
     for (const item of rivalsArray) {
         if (!item) continue;
         
-        // すでに改行で分割されている場合
-        if (item.includes('\n')) {
-            const lines = item.split('\n').filter(l => l.trim());
+        const item_str = String(item).trim();
+        
+        // 既にスペース区切りで分割されている場合（新しいフォーマット）
+        if (item_str.includes(' ') && !item_str.includes('\n')) {
+            const rivals = item_str.split(/\s+/).filter(r => r.trim());
+            result.push(...rivals);
+        }
+        // 改行で分割されている場合
+        else if (item_str.includes('\n')) {
+            const lines = item_str.split('\n').filter(l => l.trim());
             result.push(...lines);
-        } 
-        // 連結された文字列を6文字以内の漢字単位で分割
-        else {
-            // 漢字/カタカナの単位で分割
-            // パターン：漢字だけ、またはカタカナだけの連続を分割
-            const chunks = item.match(/[\u4e00-\u9fff\u30a0-\u30ff]+/g) || [];
-            if (chunks.length > 1) {
-                result.push(...chunks);
-            } else if (item.trim()) {
-                // 分割できなかった場合はそのまま追加
-                result.push(item);
-            }
+        }
+        // 単一のライバル名
+        else if (item_str) {
+            result.push(item_str);
         }
     }
     
