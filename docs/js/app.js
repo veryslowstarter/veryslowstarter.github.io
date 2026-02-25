@@ -256,80 +256,49 @@ function escapeHtml(text) {
 function convertToLinks(text) {
     if (!text) return '';
     
-    // ↓ で分割してセクションごとに処理
-    const sections = text.split('↓');
-    let html = '';
-    
-    for (let i = 0; i < sections.length; i++) {
-        const section = sections[i].trim();
-        if (!section) continue;
-        
-        // URL パターン: https://...185532 の形式
-        // 185532 の後ろにあるテキストを抽出
-        const urlMatch = section.match(/(https?:\/\/[^\/\s]+\/[^\/]*185532)([^\s]*)\s*(.*)/i);
-        
-        if (urlMatch) {
-            const baseUrl = urlMatch[1];  // https://...185532
-            const suffix = urlMatch[2];   // 185532 の直後の文字（例：overjoy）
-            const remaining = urlMatch[3]; // 残りのテキスト
-            
-            // URL をリンクに変換
-            const link = `<a href="${baseUrl}" target="_blank">${baseUrl}</a>`;
-            
-            // suffix と remaining を改行で分割
-            if (suffix || remaining) {
-                html += link + '<br>';
-                if (suffix) html += suffix + ' ';
-                if (remaining) html += remaining + '<br>';
-            } else {
-                html += link + '<br>';
-            }
-        } else {
-            // URL がない場合は通常のテキスト処理
-            let escapedSection = escapeHtml(section);
-            
-            // URL をリンクに変換
-            escapedSection = escapedSection.replace(
-                /(https?:\/\/[^\s\<\>"']+)/gi,
-                '<a href="$1" target="_blank">$1</a>'
-            );
-            
-            html += escapedSection;
-            if (i < sections.length - 1) {
-                html += '<br>';
-            }
-        }
+    // 最後の「。」を見つけて本文とリンク部分に分割
+    const lastDotIndex = text.lastIndexOf('。');
+    if (lastDotIndex === -1) {
+        return escapeHtml(text);
     }
     
-    return html || text;
+    // 本文部分（最後の「。」まで）
+    const mainText = text.substring(0, lastDotIndex + 1);
+    // URL部分（最後の「。」の後）
+    const urlPart = text.substring(lastDotIndex + 1);
+    
+    let html = escapeHtml(mainText);
+    
+    // URL部分を処理：ラベル↓URL のペアを抽出
+    // パターン：ラベル↓https://...185532 または ラベル↓https://...playerid=185532
+    const regex = /([^↓\n@]+)↓(https?:\/\/[^\s@]+?(?:185532|playerid=185532))/g;
+    let match;
+    
+    while ((match = regex.exec(urlPart)) !== null) {
+        const label = match[1].trim();
+        const url = match[2].trim();
+        
+        html += '<br>' + escapeHtml(label) + '↓<br>';
+        html += '<a href="' + escapeHtml(url) + '" target="_blank">' + escapeHtml(url) + '</a>';
+    }
+    
+    return html;
 }
 
 function getRivals(rivalsArray) {
     if (!rivalsArray || rivalsArray.length === 0) return [];
     
-    let rivals = [];
-    
-    // rivalsArray の各要素を処理
+    let result = [];
     for (const item of rivalsArray) {
-        if (!item || !item.trim()) continue;
-        
-        // 1. 改行で分割される場合
+        if (!item) continue;
         if (item.includes('\n')) {
-            const split = item.split('\n').filter(r => r.trim());
-            rivals = rivals.concat(split);
-        }
-        // 2. 複数のライバル名が連結されている場合（スペースなし）
-        // 日本語の連結されたテキストから個別の名前を抽出
-        else if (item.length > 10) {
-            // 複数の名前が連結されているケースをリスト化
-            // この場合はスクレイパー側で分割される必要がある
-            rivals.push(item);
+            const lines = item.split('\n').filter(l => l.trim());
+            result.push(...lines);
         } else {
-            rivals.push(item);
+            result.push(item);
         }
     }
-    
-    return rivals.length > 0 ? rivals : rivalsArray;
+    return result.length > 0 ? result : rivalsArray;
 }
 
 function getRivalCount(rivalsArray) {
