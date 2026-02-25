@@ -289,15 +289,29 @@ function getRivals(rivalsArray) {
     if (!rivalsArray || rivalsArray.length === 0) return [];
     
     let result = [];
+    
     for (const item of rivalsArray) {
         if (!item) continue;
+        
+        // すでに改行で分割されている場合
         if (item.includes('\n')) {
             const lines = item.split('\n').filter(l => l.trim());
             result.push(...lines);
-        } else {
-            result.push(item);
+        } 
+        // 連結された文字列を6文字以内の漢字単位で分割
+        else {
+            // 漢字/カタカナの単位で分割
+            // パターン：漢字だけ、またはカタカナだけの連続を分割
+            const chunks = item.match(/[\u4e00-\u9fff\u30a0-\u30ff]+/g) || [];
+            if (chunks.length > 1) {
+                result.push(...chunks);
+            } else if (item.trim()) {
+                // 分割できなかった場合はそのまま追加
+                result.push(item);
+            }
         }
     }
+    
     return result.length > 0 ? result : rivalsArray;
 }
 

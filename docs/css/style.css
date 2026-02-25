@@ -141,8 +141,9 @@ body {
 
 .introduction {
     word-wrap: break-word;
-    white-space: normal;
+    white-space: pre-wrap;
     line-height: 1.8;
+    display: block;
 }
 
 .introduction a {
@@ -300,7 +301,7 @@ body {
 /* クリア状態によるスタイル */
 /* FULL COMBO - 薄い黄色 */
 .clear-fullcombo,
-.clear-fullcombo-full-combo {
+.clear-full-combo {
     background-color: #fff3cd !important;
     border-left: 4px solid #ffc107;
 }
