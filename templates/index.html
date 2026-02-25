@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR2IR Player Profile 検索</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>LR2IR Player Profile Display</h1>
+        </header>
+
+        <main class="content search-content">
+            <div class="search-form-container">
+                <h2>プレイヤーを検索</h2>
+                <form method="POST" class="search-form">
+                    <div class="form-group">
+                        <label for="player_id">プレイヤーID:</label>
+                        <input 
+                            type="number" 
+                            id="player_id" 
+                            name="player_id" 
+                            placeholder="例: 185532" 
+                            required
+                            autofocus
+                        />
+                    </div>
+                    <button type="submit" class="btn-primary">検索</button>
+                </form>
+
+                <div class="info-box">
+                    <h3>使い方</h3>
+                    <ol>
+                        <li>LR2IRサイトからプレイヤーIDを取得します</li>
+                        <li>上のフォームにプレイヤーIDを入力します</li>
+                        <li>「検索」ボタンをクリックします</li>
+                        <li>プレイヤープロフィールが表示されます</li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>LR2IR Player Profile Display &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
