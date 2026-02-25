@@ -147,18 +147,23 @@ class LR2IRScraper:
         """ライバルを抽出"""
         rivals = []
         try:
-            rival_text = self._extract_text_from_table(soup, 'ライバル')
-            if rival_text:
-                # 改行で分割される可能性を考慮
-                lines = rival_text.split('\n')
-                for line in lines:
-                    line = line.strip()
-                    if line and line != 'ライバル':
-                        rivals.append(line)
-                
-                # もし改行で分割されなかった場合は、空白で分割
-                if len(rivals) == 0 or len(rivals) == 1:
-                    rivals = [r.strip() for r in rival_text.split() if r.strip()]
+            # ライバル行を検索
+            rival_row = None
+            for row in soup.find_all('tr'):
+                cells = row.find_all(['td', 'th'])
+                for i, cell in enumerate(cells):
+                    if 'ライバル' in cell.get_text():
+                        # ライバル情報は次のセルにある
+                        if i + 1 < len(cells):
+                            rival_row = cells[i + 1]
+                        break
+            
+            if rival_row:
+                # <br> タグで分割されたテキストを抽出
+                rival_text = rival_row.get_text()
+                # 複数の改行パターンに対応
+                lines = [line.strip() for line in rival_text.split() if line.strip()]
+                rivals = lines if lines else []
         except:
             pass
         return rivals if rivals else []

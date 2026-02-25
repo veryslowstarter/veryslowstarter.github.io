@@ -35,7 +35,7 @@ function renderPlayerProfile(data, container) {
             <div class="info-grid">
                 <div class="info-item">
                     <span class="label">LR2ID:</span>
-                    <span class="value"><a href="http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=mypage&playerid=${data.lr2_id}" target="_blank">${data.lr2_id}</a></span>
+                    <span class="value">${data.lr2_id}</span>
                 </div>
                 <div class="info-item">
                     <span class="label">段位認定:</span>
@@ -255,8 +255,14 @@ function escapeHtml(text) {
 
 function convertToLinks(text) {
     if (!text) return '';
-    // 改行を <br> に変換
-    let html = text.replace(/\n/g, '<br>');
+    // テキストをエスケープ
+    let html = escapeHtml(text);
+    // 複数の改行パターンに対応
+    // まず、URL の直前にある改行↓ を <br> に変換
+    html = html.replace(/↓/g, '<br>↓');
+    // その他の改行文字を <br> に変換
+    html = html.replace(/\n/g, '<br>');
+    html = html.replace(/\r/g, '');
     // URLをリンクに変換
     html = html.replace(
         /(https?:\/\/[^\s\<\>"']+)/gi,
