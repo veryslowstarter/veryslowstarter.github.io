@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2798,
-  "play_count": 12426,
+  "played_charts": 2803,
+  "play_count": 12486,
   "clear_stats": {
-    "FULLCOMBO": "165(★7)",
+    "FULLCOMBO": "166(★7)",
     "HARD": "1546",
-    "NORMAL": "71",
+    "NORMAL": "70",
     "EASY": "384",
-    "FAILED": "632"
+    "FAILED": "637"
   },
   "favorite_songs": [
     {
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "サクライロフワリ (mania7)",
-      "clear": "EASY CLEAR",
-      "play_count": "12",
-      "ranking": "279/548"
-    },
-    {
-      "rank": "2",
-      "title": "It's \"alice\" dream [I want to be...]",
-      "clear": "CLEAR",
-      "play_count": "4",
-      "ranking": "192/638"
-    },
-    {
-      "rank": "3",
-      "title": "Castor(BMS edit) [SP ANOTHER]",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "634/635"
-    },
-    {
-      "rank": "4",
-      "title": "subconsciousness [Freud]",
-      "clear": "★FULLCOMBO",
-      "play_count": "69",
-      "ranking": "50/1396"
-    },
-    {
-      "rank": "5",
-      "title": "ERIS MX",
-      "clear": "FULL COMBO",
-      "play_count": "52",
-      "ranking": "190/22636"
-    },
-    {
-      "rank": "6",
-      "title": "Odin [Black_Another]",
-      "clear": "FULL COMBO",
-      "play_count": "17",
-      "ranking": "1338/14220"
-    },
-    {
-      "rank": "7",
       "title": "特効薬はカニピラフ (KANITHER)",
-      "clear": "HARD CLEAR",
-      "play_count": "5",
+      "clear": "FULL COMBO",
+      "play_count": "7",
       "ranking": "311/7726"
     },
     {
-      "rank": "8",
-      "title": "滝行Lv28 [皆伝取りました]",
+      "rank": "2",
+      "title": "Daydreamer [SABOTHER]",
       "clear": "HARD CLEAR",
+      "play_count": "12",
+      "ranking": "715/8141"
+    },
+    {
+      "rank": "3",
+      "title": "雪月夜鐘 -Monsther-",
+      "clear": "HARD CLEAR",
+      "play_count": "8",
+      "ranking": "1151/9702"
+    },
+    {
+      "rank": "4",
+      "title": "knell-第三楽章- (FOOLISH)",
+      "clear": "CLEAR",
+      "play_count": "5",
+      "ranking": "53/272"
+    },
+    {
+      "rank": "5",
+      "title": "モリオンの姫 [ゴリオンの王]",
+      "clear": "EASY CLEAR",
       "play_count": "6",
-      "ranking": "463/4883"
+      "ranking": "248/1327"
+    },
+    {
+      "rank": "6",
+      "title": "Gun to Childhead",
+      "clear": "EASY CLEAR",
+      "play_count": "5",
+      "ranking": "325/1585"
+    },
+    {
+      "rank": "7",
+      "title": "fragmentation [≡]",
+      "clear": "FAILED",
+      "play_count": "11",
+      "ranking": "537/1125"
+    },
+    {
+      "rank": "8",
+      "title": "Resurrection Spell [VOLCANO]",
+      "clear": "FAILED",
+      "play_count": "12",
+      "ranking": "78/473"
     },
     {
       "rank": "9",
-      "title": "乙女ノススメ！ (Lovely)",
-      "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "1047/5027"
+      "title": "人形楽団　 ～ Puppet Ensemble ・∀・ ～",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "329/488"
     },
     {
       "rank": "10",
-      "title": "ヒメタイプ [F]",
-      "clear": "HARD CLEAR",
-      "play_count": "13",
-      "ranking": "611/5416"
+      "title": "リジットXXパラダイス",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "799/893"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-02-26T02:46:08.547662"
+  "last_updated": "2026-02-27T02:44:24.576981"
 }
