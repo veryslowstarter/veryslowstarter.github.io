@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2803,
-  "play_count": 12486,
+  "played_charts": 2807,
+  "play_count": 12569,
   "clear_stats": {
-    "FULLCOMBO": "166(★7)",
-    "HARD": "1546",
-    "NORMAL": "70",
-    "EASY": "384",
-    "FAILED": "637"
+    "FULLCOMBO": "167(★7)",
+    "HARD": "1548",
+    "NORMAL": "68",
+    "EASY": "385",
+    "FAILED": "639"
   },
   "favorite_songs": [
     {
@@ -28,15 +28,15 @@
       "rank": "2",
       "title": "Love & Justice [GOD]",
       "clear": "HARD CLEAR",
-      "play_count": "118",
-      "ranking": "372/4007"
+      "play_count": "119",
+      "ranking": "373/4008"
     },
     {
       "rank": "3",
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "246/760"
+      "ranking": "246/761"
     },
     {
       "rank": "4",
@@ -68,96 +68,96 @@
     },
     {
       "rank": "8",
-      "title": "Qualia [Quantia]",
-      "clear": "HARD CLEAR",
+      "title": "G e n g a o z o - f o o n",
+      "clear": "EASY CLEAR",
       "play_count": "52",
-      "ranking": "241/1441"
+      "ranking": "860/2791"
     },
     {
       "rank": "9",
-      "title": "gravitronicⅢ",
+      "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
-      "play_count": "51",
-      "ranking": "971/3895"
+      "play_count": "52",
+      "ranking": "241/1442"
     },
     {
       "rank": "10",
-      "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
-      "clear": "EASY CLEAR",
-      "play_count": "50",
-      "ranking": "312/2886"
+      "title": "gravitronicⅢ",
+      "clear": "HARD CLEAR",
+      "play_count": "51",
+      "ranking": "971/3896"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "特効薬はカニピラフ (KANITHER)",
+      "title": "oceanbird [benefic7]",
       "clear": "FULL COMBO",
-      "play_count": "7",
-      "ranking": "311/7726"
+      "play_count": "6",
+      "ranking": "309/9280"
     },
     {
       "rank": "2",
-      "title": "Daydreamer [SABOTHER]",
+      "title": "eve solstice mix -kuso-",
       "clear": "HARD CLEAR",
-      "play_count": "12",
-      "ranking": "715/8141"
+      "play_count": "3",
+      "ranking": "581/8135"
     },
     {
       "rank": "3",
-      "title": "雪月夜鐘 -Monsther-",
+      "title": "Red -reduction division- [NANATHER]",
       "clear": "HARD CLEAR",
-      "play_count": "8",
-      "ranking": "1151/9702"
+      "play_count": "10",
+      "ranking": "228/10286"
     },
     {
       "rank": "4",
-      "title": "knell-第三楽章- (FOOLISH)",
-      "clear": "CLEAR",
-      "play_count": "5",
-      "ranking": "53/272"
+      "title": "Daydreamer [SABOTHER]",
+      "clear": "HARD CLEAR",
+      "play_count": "18",
+      "ranking": "715/8141"
     },
     {
       "rank": "5",
-      "title": "モリオンの姫 [ゴリオンの王]",
-      "clear": "EASY CLEAR",
-      "play_count": "6",
-      "ranking": "248/1328"
+      "title": "雪月夜鐘 -Monsther-",
+      "clear": "HARD CLEAR",
+      "play_count": "15",
+      "ranking": "1151/9703"
     },
     {
       "rank": "6",
-      "title": "Gun to Childhead",
-      "clear": "EASY CLEAR",
-      "play_count": "5",
-      "ranking": "325/1585"
+      "title": "おでんぱ☆ラヴガール -BMS EDIT- [Kei-Another7 +]",
+      "clear": "HARD CLEAR",
+      "play_count": "3",
+      "ranking": "1390/13327"
     },
     {
       "rank": "7",
-      "title": "fragmentation [≡]",
-      "clear": "FAILED",
-      "play_count": "11",
-      "ranking": "537/1125"
+      "title": "ブクレシュティの人形師 -GIL-",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "2868/20464"
     },
     {
       "rank": "8",
-      "title": "Resurrection Spell [VOLCANO]",
+      "title": "Funky Anthem \"F\" -Harether-",
       "clear": "FAILED",
-      "play_count": "12",
-      "ranking": "78/473"
+      "play_count": "6",
+      "ranking": "1/3"
     },
     {
       "rank": "9",
-      "title": "人形楽団　 ～ Puppet Ensemble ・∀・ ～",
-      "clear": "FAILED",
+      "title": "少女の檻 \"Last Night, Last Dancing.\"",
+      "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "329/488"
+      "ranking": "241/854"
     },
     {
       "rank": "10",
-      "title": "リジットXXパラダイス",
+      "title": "G e n g a o z o -For Reiwa generations-",
       "clear": "FAILED",
       "play_count": "1",
-      "ranking": "799/893"
+      "ranking": "95/142"
     }
   ],
   "recent_courses": [
@@ -173,7 +173,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂九段",
       "clear": "CLEAR",
       "play_count": "12",
-      "ranking": "156/2753"
+      "ranking": "156/2754"
     },
     {
       "rank": "3",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-02-28T02:33:02.224710"
+  "last_updated": "2026-03-01T03:16:30.108336"
 }
