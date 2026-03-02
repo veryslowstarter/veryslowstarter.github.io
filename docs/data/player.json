@@ -43,7 +43,7 @@
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2642"
+      "ranking": "701/2644"
     },
     {
       "rank": "5",
@@ -143,7 +143,7 @@
       "title": "Funky Anthem \"F\" -Harether-",
       "clear": "FAILED",
       "play_count": "6",
-      "ranking": "1/3"
+      "ranking": "1/4"
     },
     {
       "rank": "9",
@@ -215,7 +215,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂皆伝",
       "clear": "CLEAR",
       "play_count": "23",
-      "ranking": "680/1876"
+      "ranking": "680/1877"
     },
     {
       "rank": "9",
@@ -255,7 +255,7 @@
     }
   ],
   "rivals": [
-    "小鈎ハレ",
+    "森亜るるか",
     "徒町小鈴",
     "桐間紗路",
     "黒部ナノカ",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-01T03:16:30.108336"
+  "last_updated": "2026-03-02T02:46:58.517050"
 }
