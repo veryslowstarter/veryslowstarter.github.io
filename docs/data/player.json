@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2807,
-  "play_count": 12569,
+  "played_charts": 2810,
+  "play_count": 12646,
   "clear_stats": {
-    "FULLCOMBO": "167(★7)",
-    "HARD": "1548",
+    "FULLCOMBO": "170(★7)",
+    "HARD": "1545",
     "NORMAL": "68",
-    "EASY": "385",
-    "FAILED": "639"
+    "EASY": "386",
+    "FAILED": "641"
   },
   "favorite_songs": [
     {
@@ -22,7 +22,7 @@
       "title": "ひつぎとふたご [7KEY/LUNATIC]",
       "clear": "HARD CLEAR",
       "play_count": "148",
-      "ranking": "1028/8627"
+      "ranking": "1028/8628"
     },
     {
       "rank": "2",
@@ -43,7 +43,7 @@
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2644"
+      "ranking": "701/2645"
     },
     {
       "rank": "5",
@@ -61,24 +61,24 @@
     },
     {
       "rank": "7",
-      "title": "ERIS MX",
-      "clear": "FULL COMBO",
-      "play_count": "52",
-      "ranking": "190/22636"
+      "title": "G e n g a o z o - f o o n",
+      "clear": "EASY CLEAR",
+      "play_count": "53",
+      "ranking": "860/2791"
     },
     {
       "rank": "8",
-      "title": "G e n g a o z o - f o o n",
-      "clear": "EASY CLEAR",
+      "title": "ERIS MX",
+      "clear": "FULL COMBO",
       "play_count": "52",
-      "ranking": "860/2791"
+      "ranking": "190/22637"
     },
     {
       "rank": "9",
       "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
       "play_count": "52",
-      "ranking": "241/1443"
+      "ranking": "241/1444"
     },
     {
       "rank": "10",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "oceanbird [benefic7]",
-      "clear": "FULL COMBO",
-      "play_count": "6",
-      "ranking": "309/9280"
-    },
-    {
-      "rank": "2",
-      "title": "eve solstice mix -kuso-",
-      "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "581/8136"
-    },
-    {
-      "rank": "3",
-      "title": "Red -reduction division- [NANATHER]",
-      "clear": "HARD CLEAR",
-      "play_count": "10",
-      "ranking": "228/10286"
-    },
-    {
-      "rank": "4",
       "title": "Daydreamer [SABOTHER]",
-      "clear": "HARD CLEAR",
-      "play_count": "18",
+      "clear": "FULL COMBO",
+      "play_count": "29",
       "ranking": "715/8141"
     },
     {
-      "rank": "5",
+      "rank": "2",
       "title": "雪月夜鐘 -Monsther-",
-      "clear": "HARD CLEAR",
-      "play_count": "15",
+      "clear": "FULL COMBO",
+      "play_count": "30",
       "ranking": "1151/9704"
     },
     {
-      "rank": "6",
-      "title": "おでんぱ☆ラヴガール -BMS EDIT- [Kei-Another7 +]",
+      "rank": "3",
+      "title": "Starry Fate (Dif)",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "617/6584"
+    },
+    {
+      "rank": "4",
+      "title": "サンバランド [POROTHER]",
       "clear": "HARD CLEAR",
       "play_count": "3",
-      "ranking": "1390/13327"
+      "ranking": "2255/10210"
+    },
+    {
+      "rank": "5",
+      "title": "少女の舞葬",
+      "clear": "HARD CLEAR",
+      "play_count": "10",
+      "ranking": "877/11221"
+    },
+    {
+      "rank": "6",
+      "title": "G e n g a o z o _ A F O",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "809/11449"
     },
     {
       "rank": "7",
-      "title": "ブクレシュティの人形師 -GIL-",
+      "title": "Parousia [HARD]",
       "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "2868/20464"
+      "play_count": "3",
+      "ranking": "1438/21818"
     },
     {
       "rank": "8",
-      "title": "Funky Anthem \"F\" -Harether-",
+      "title": "Ereshkigal (KOOKY)",
       "clear": "FAILED",
-      "play_count": "6",
-      "ranking": "1/4"
+      "play_count": "1",
+      "ranking": "349/507"
     },
     {
       "rank": "9",
-      "title": "少女の檻 \"Last Night, Last Dancing.\"",
-      "clear": "HARD CLEAR",
-      "play_count": "1",
-      "ranking": "241/854"
+      "title": "ENTANGLEMENT (KOOKY)",
+      "clear": "FAILED",
+      "play_count": "2",
+      "ranking": "77/416"
     },
     {
       "rank": "10",
-      "title": "G e n g a o z o -For Reiwa generations-",
+      "title": "duty [free]",
       "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "95/142"
+      "play_count": "2",
+      "ranking": "490/756"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-03T02:49:55.068415"
+  "last_updated": "2026-03-04T02:42:43.770747"
 }
