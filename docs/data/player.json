@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2810,
-  "play_count": 12646,
+  "played_charts": 2817,
+  "play_count": 12729,
   "clear_stats": {
-    "FULLCOMBO": "170(★7)",
-    "HARD": "1545",
+    "FULLCOMBO": "172(★7)",
+    "HARD": "1544",
     "NORMAL": "68",
     "EASY": "386",
-    "FAILED": "641"
+    "FAILED": "647"
   },
   "favorite_songs": [
     {
@@ -50,7 +50,7 @@
       "title": "subconsciousness [Freud]",
       "clear": "★FULLCOMBO",
       "play_count": "69",
-      "ranking": "50/1397"
+      "ranking": "50/1398"
     },
     {
       "rank": "6",
@@ -63,7 +63,7 @@
       "rank": "7",
       "title": "G e n g a o z o - f o o n",
       "clear": "EASY CLEAR",
-      "play_count": "53",
+      "play_count": "57",
       "ranking": "860/2791"
     },
     {
@@ -78,7 +78,7 @@
       "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
       "play_count": "52",
-      "ranking": "241/1444"
+      "ranking": "241/1445"
     },
     {
       "rank": "10",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Daydreamer [SABOTHER]",
+      "title": "Cynthia (7-EX)",
       "clear": "FULL COMBO",
-      "play_count": "29",
-      "ranking": "715/8141"
+      "play_count": "9",
+      "ranking": "649/9436"
     },
     {
       "rank": "2",
-      "title": "雪月夜鐘 -Monsther-",
-      "clear": "FULL COMBO",
-      "play_count": "30",
-      "ranking": "1151/9705"
+      "title": "Act Beloved [SP EX]",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "784/11098"
     },
     {
       "rank": "3",
-      "title": "Starry Fate (Dif)",
+      "title": "Atomic Bomb [㌧に捧げる譜面]",
       "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "617/6584"
+      "play_count": "5",
+      "ranking": "444/10232"
     },
     {
       "rank": "4",
-      "title": "サンバランド [POROTHER]",
+      "title": "G e n g a o z o _ E X",
       "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "2255/10210"
+      "play_count": "4",
+      "ranking": "1398/10880"
     },
     {
       "rank": "5",
-      "title": "少女の舞葬",
+      "title": "88D [小さい]",
       "clear": "HARD CLEAR",
-      "play_count": "10",
-      "ranking": "877/11221"
+      "play_count": "9",
+      "ranking": "178/7893"
     },
     {
       "rank": "6",
-      "title": "G e n g a o z o _ A F O",
+      "title": "Papyrus (Maniac)",
       "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "809/11449"
+      "play_count": "46",
+      "ranking": "455/18895"
     },
     {
       "rank": "7",
-      "title": "Parousia [HARD]",
+      "title": "SunnyShinyRing -Another-",
       "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "1438/21818"
+      "play_count": "2",
+      "ranking": "3633/20533"
     },
     {
       "rank": "8",
-      "title": "Ereshkigal (KOOKY)",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "349/507"
+      "title": "Full of Tears -full-",
+      "clear": "HARD CLEAR",
+      "play_count": "8",
+      "ranking": "821/13580"
     },
     {
       "rank": "9",
-      "title": "ENTANGLEMENT (KOOKY)",
-      "clear": "FAILED",
-      "play_count": "2",
-      "ranking": "77/416"
+      "title": "Party 4U (AFOTHER)",
+      "clear": "HARD CLEAR",
+      "play_count": "6",
+      "ranking": "1292/12151"
     },
     {
       "rank": "10",
-      "title": "duty [free]",
-      "clear": "FAILED",
+      "title": "Rosario -another story- (busy)",
+      "clear": "FULL COMBO",
       "play_count": "2",
-      "ranking": "490/756"
+      "ranking": "753/10189"
     }
   ],
   "recent_courses": [
@@ -215,7 +215,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂皆伝",
       "clear": "CLEAR",
       "play_count": "23",
-      "ranking": "680/1877"
+      "ranking": "680/1878"
     },
     {
       "rank": "9",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-05T02:45:49.965645"
+  "last_updated": "2026-03-06T02:43:02.861304"
 }
