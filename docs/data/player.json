@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2817,
-  "play_count": 12729,
+  "played_charts": 2827,
+  "play_count": 12794,
   "clear_stats": {
-    "FULLCOMBO": "172(★7)",
-    "HARD": "1544",
+    "FULLCOMBO": "174(★7)",
+    "HARD": "1542",
     "NORMAL": "68",
-    "EASY": "386",
-    "FAILED": "647"
+    "EASY": "388",
+    "FAILED": "655"
   },
   "favorite_songs": [
     {
@@ -22,28 +22,28 @@
       "title": "ひつぎとふたご [7KEY/LUNATIC]",
       "clear": "HARD CLEAR",
       "play_count": "148",
-      "ranking": "1028/8629"
+      "ranking": "1028/8630"
     },
     {
       "rank": "2",
       "title": "Love & Justice [GOD]",
       "clear": "HARD CLEAR",
       "play_count": "119",
-      "ranking": "373/4010"
+      "ranking": "373/4011"
     },
     {
       "rank": "3",
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "246/761"
+      "ranking": "246/762"
     },
     {
       "rank": "4",
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2646"
+      "ranking": "701/2647"
     },
     {
       "rank": "5",
@@ -57,7 +57,7 @@
       "title": "Danger Love (cheap sound mix) [DX-]",
       "clear": "HARD CLEAR",
       "play_count": "58",
-      "ranking": "76/252"
+      "ranking": "76/253"
     },
     {
       "rank": "7",
@@ -68,96 +68,96 @@
     },
     {
       "rank": "8",
+      "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
+      "clear": "EASY CLEAR",
+      "play_count": "52",
+      "ranking": "196/2887"
+    },
+    {
+      "rank": "9",
       "title": "ERIS MX",
       "clear": "FULL COMBO",
       "play_count": "52",
       "ranking": "190/22637"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
       "play_count": "52",
       "ranking": "241/1445"
-    },
-    {
-      "rank": "10",
-      "title": "gravitronicⅢ",
-      "clear": "HARD CLEAR",
-      "play_count": "51",
-      "ranking": "971/3896"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Cynthia (7-EX)",
+      "title": "Full of Tears -full-",
       "clear": "FULL COMBO",
-      "play_count": "9",
-      "ranking": "649/9437"
+      "play_count": "22",
+      "ranking": "718/13580"
     },
     {
       "rank": "2",
-      "title": "Act Beloved [SP EX]",
-      "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "784/11098"
+      "title": "FREEDOM DiVE [FOUR DIMENSIONS]",
+      "clear": "FAILED",
+      "play_count": "50",
+      "ranking": "371/6813"
     },
     {
       "rank": "3",
-      "title": "Atomic Bomb [㌧に捧げる譜面]",
-      "clear": "HARD CLEAR",
-      "play_count": "5",
-      "ranking": "444/10232"
+      "title": "千年女王 [SHD]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "673/751"
     },
     {
       "rank": "4",
-      "title": "G e n g a o z o _ E X",
-      "clear": "HARD CLEAR",
+      "title": "volcanic",
+      "clear": "FAILED",
       "play_count": "4",
-      "ranking": "1398/10880"
+      "ranking": "180/626"
     },
     {
       "rank": "5",
-      "title": "88D [小さい]",
-      "clear": "HARD CLEAR",
-      "play_count": "9",
-      "ranking": "178/7893"
+      "title": "Angelic layer 名人",
+      "clear": "FAILED",
+      "play_count": "8",
+      "ranking": "764/2981"
     },
     {
       "rank": "6",
-      "title": "Papyrus (Maniac)",
-      "clear": "HARD CLEAR",
-      "play_count": "46",
-      "ranking": "455/18895"
+      "title": "夜騒曲 op.Q-ν [Lapid Bullet]",
+      "clear": "CLEAR",
+      "play_count": "5",
+      "ranking": "96/426"
     },
     {
       "rank": "7",
-      "title": "SunnyShinyRing -Another-",
-      "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "3633/20535"
+      "title": "antilife",
+      "clear": "FAILED",
+      "play_count": "3",
+      "ranking": "350/1062"
     },
     {
       "rank": "8",
-      "title": "Full of Tears -full-",
-      "clear": "HARD CLEAR",
-      "play_count": "8",
-      "ranking": "821/13580"
+      "title": "HEXPERUS [ZENITH]",
+      "clear": "FAILED",
+      "play_count": "2",
+      "ranking": "85/255"
     },
     {
       "rank": "9",
-      "title": "Party 4U (AFOTHER)",
-      "clear": "HARD CLEAR",
-      "play_count": "6",
-      "ranking": "1292/12152"
+      "title": "Andro",
+      "clear": "FAILED",
+      "play_count": "10",
+      "ranking": "198/409"
     },
     {
       "rank": "10",
-      "title": "Rosario -another story- (busy)",
-      "clear": "FULL COMBO",
-      "play_count": "2",
-      "ranking": "753/10190"
+      "title": "\"Flagon\" [ACE]",
+      "clear": "EASY CLEAR",
+      "play_count": "1",
+      "ranking": "22/36"
     }
   ],
   "recent_courses": [
@@ -173,14 +173,14 @@
       "title": "GENOSIDE 2018 段位認定 発狂九段",
       "clear": "CLEAR",
       "play_count": "12",
-      "ranking": "156/2756"
+      "ranking": "156/2757"
     },
     {
       "rank": "3",
       "title": "GENOSIDE 2018 段位認定 発狂二段",
       "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "133/4357"
+      "ranking": "133/4358"
     },
     {
       "rank": "4",
@@ -208,7 +208,7 @@
       "title": "Stella Skill Simulator 4th st6",
       "clear": "CLEAR",
       "play_count": "2",
-      "ranking": "13/102"
+      "ranking": "13/103"
     },
     {
       "rank": "8",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-08T02:49:34.111140"
+  "last_updated": "2026-03-09T02:50:56.990058"
 }
