@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2828,
-  "play_count": 12887,
+  "played_charts": 2837,
+  "play_count": 13001,
   "clear_stats": {
-    "FULLCOMBO": "176(★7)",
-    "HARD": "1541",
+    "FULLCOMBO": "180(★7)",
+    "HARD": "1540",
     "NORMAL": "68",
-    "EASY": "388",
-    "FAILED": "655"
+    "EASY": "389",
+    "FAILED": "660"
   },
   "favorite_songs": [
     {
@@ -43,13 +43,13 @@
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2647"
+      "ranking": "701/2648"
     },
     {
       "rank": "5",
       "title": "シグナルほっぴんぐ [hexi]",
       "clear": "HARD CLEAR",
-      "play_count": "74",
+      "play_count": "76",
       "ranking": "1/1"
     },
     {
@@ -75,89 +75,89 @@
     },
     {
       "rank": "9",
+      "title": "★LittlE HearTs★ (GOD)",
+      "clear": "EASY CLEAR",
+      "play_count": "52",
+      "ranking": "810/6211"
+    },
+    {
+      "rank": "10",
       "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
       "clear": "EASY CLEAR",
       "play_count": "52",
       "ranking": "196/2887"
-    },
-    {
-      "rank": "10",
-      "title": "ERIS MX",
-      "clear": "FULL COMBO",
-      "play_count": "52",
-      "ranking": "190/22637"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Faceless Moon (Dante Must Die!)",
-      "clear": "FULL COMBO",
-      "play_count": "14",
-      "ranking": "613/15874"
+      "title": "Last! Least! Regrets!! (AFOTHER)",
+      "clear": "HARD CLEAR",
+      "play_count": "15",
+      "ranking": "1450/12052"
     },
     {
       "rank": "2",
-      "title": "Angelic layer　 ～Reincarnation～",
+      "title": "Atomic Bomb [㌧に捧げる譜面]",
       "clear": "HARD CLEAR",
-      "play_count": "11",
-      "ranking": "581/13306"
+      "play_count": "12",
+      "ranking": "445/10233"
     },
     {
       "rank": "3",
       "title": "シグナルほっぴんぐ [hexi]",
       "clear": "HARD CLEAR",
-      "play_count": "74",
+      "play_count": "76",
       "ranking": "1/1"
     },
     {
       "rank": "4",
-      "title": "orangegirl sentiment [EX]",
-      "clear": "HARD CLEAR",
-      "play_count": "7",
-      "ranking": "23/80"
+      "title": "the dark carnival [hexi]",
+      "clear": "FULL COMBO",
+      "play_count": "41",
+      "ranking": "1/2"
     },
     {
       "rank": "5",
-      "title": "Fantasmagoria -隙間-",
+      "title": "Angelic layer　 ～Reincarnation～",
       "clear": "FULL COMBO",
-      "play_count": "8",
-      "ranking": "566/9720"
+      "play_count": "12",
+      "ranking": "581/13306"
     },
     {
       "rank": "6",
-      "title": "Party 4U (AFOTHER)",
+      "title": "覚醒フィールド -A.T.フィールド-",
       "clear": "HARD CLEAR",
-      "play_count": "10",
-      "ranking": "1292/12153"
+      "play_count": "3",
+      "ranking": "416/9879"
     },
     {
       "rank": "7",
-      "title": "Parousia [HARD]",
+      "title": "少女の檻 \"Last Night, Last Dancing.\"",
       "clear": "HARD CLEAR",
-      "play_count": "4",
-      "ranking": "894/21818"
+      "play_count": "13",
+      "ranking": "599/9704"
     },
     {
       "rank": "8",
-      "title": "Full of Tears -full-",
+      "title": "Parousia [HARD]",
       "clear": "FULL COMBO",
-      "play_count": "22",
-      "ranking": "718/13581"
+      "play_count": "7",
+      "ranking": "894/21818"
     },
     {
       "rank": "9",
-      "title": "FREEDOM DiVE [FOUR DIMENSIONS]",
+      "title": "Mr.RENDA [Mr.DELAY]",
       "clear": "FAILED",
-      "play_count": "50",
-      "ranking": "371/6813"
+      "play_count": "1",
+      "ranking": "38/56"
     },
     {
       "rank": "10",
-      "title": "千年女王 [SHD]",
+      "title": "FREEDOM DiVE [FOUR DIMENSIONS]",
       "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "673/751"
+      "play_count": "51",
+      "ranking": "372/6813"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-11T02:41:29.827915"
+  "last_updated": "2026-03-12T02:47:14.804590"
 }
