@@ -7,14 +7,14 @@
     "text": "https://www.cho-kaguyahime.com/",
     "url": "https://www.cho-kaguyahime.com/"
   },
-  "played_charts": 2837,
-  "play_count": 13001,
+  "played_charts": 2838,
+  "play_count": 13035,
   "clear_stats": {
-    "FULLCOMBO": "180(★7)",
-    "HARD": "1540",
+    "FULLCOMBO": "184(★7)",
+    "HARD": "1536",
     "NORMAL": "68",
     "EASY": "389",
-    "FAILED": "660"
+    "FAILED": "661"
   },
   "favorite_songs": [
     {
@@ -36,7 +36,7 @@
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "246/763"
+      "ranking": "253/763"
     },
     {
       "rank": "4",
@@ -57,21 +57,21 @@
       "title": "subconsciousness [Freud]",
       "clear": "★FULLCOMBO",
       "play_count": "69",
-      "ranking": "50/1399"
+      "ranking": "50/1400"
     },
     {
       "rank": "7",
+      "title": "G e n g a o z o - f o o n",
+      "clear": "EASY CLEAR",
+      "play_count": "58",
+      "ranking": "860/2791"
+    },
+    {
+      "rank": "8",
       "title": "Danger Love (cheap sound mix) [DX-]",
       "clear": "HARD CLEAR",
       "play_count": "58",
       "ranking": "76/254"
-    },
-    {
-      "rank": "8",
-      "title": "G e n g a o z o - f o o n",
-      "clear": "EASY CLEAR",
-      "play_count": "57",
-      "ranking": "860/2791"
     },
     {
       "rank": "9",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Last! Least! Regrets!! (AFOTHER)",
-      "clear": "HARD CLEAR",
-      "play_count": "15",
-      "ranking": "1450/12052"
+      "title": "少女の舞葬",
+      "clear": "FULL COMBO",
+      "play_count": "13",
+      "ranking": "878/11223"
     },
     {
       "rank": "2",
-      "title": "Atomic Bomb [㌧に捧げる譜面]",
+      "title": "Ordeal",
       "clear": "HARD CLEAR",
-      "play_count": "12",
-      "ranking": "445/10233"
+      "play_count": "5",
+      "ranking": "374/9881"
     },
     {
       "rank": "3",
-      "title": "シグナルほっぴんぐ [hexi]",
+      "title": "薄雲 [六角形的]",
       "clear": "HARD CLEAR",
-      "play_count": "76",
-      "ranking": "1/1"
+      "play_count": "12",
+      "ranking": "315/781"
     },
     {
       "rank": "4",
-      "title": "the dark carnival [hexi]",
-      "clear": "FULL COMBO",
-      "play_count": "41",
-      "ranking": "1/2"
+      "title": "endemize [Re:HAMUTHER]",
+      "clear": "FAILED",
+      "play_count": "4",
+      "ranking": "27/69"
     },
     {
       "rank": "5",
-      "title": "Angelic layer　 ～Reincarnation～",
-      "clear": "FULL COMBO",
-      "play_count": "12",
-      "ranking": "581/13306"
+      "title": "EVERLASTING HAPPiNESS↑ [AETERNUM]",
+      "clear": "FAILED",
+      "play_count": "13",
+      "ranking": "150/506"
     },
     {
       "rank": "6",
-      "title": "覚醒フィールド -A.T.フィールド-",
-      "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "416/9879"
+      "title": "Evangelize (Radio Edit)",
+      "clear": "FAILED",
+      "play_count": "9",
+      "ranking": "90/213"
     },
     {
       "rank": "7",
-      "title": "少女の檻 \"Last Night, Last Dancing.\"",
-      "clear": "HARD CLEAR",
-      "play_count": "13",
-      "ranking": "599/9704"
+      "title": "飛翔するG [Leaping T]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "34/52"
     },
     {
       "rank": "8",
-      "title": "Parousia [HARD]",
-      "clear": "FULL COMBO",
-      "play_count": "7",
-      "ranking": "894/21818"
+      "title": "G e n g a o z o - f o o n",
+      "clear": "EASY CLEAR",
+      "play_count": "58",
+      "ranking": "860/2791"
     },
     {
       "rank": "9",
-      "title": "Mr.RENDA [Mr.DELAY]",
+      "title": "The lost (FUNERAL)",
       "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "38/56"
+      "play_count": "17",
+      "ranking": "281/1830"
     },
     {
       "rank": "10",
-      "title": "FREEDOM DiVE [FOUR DIMENSIONS]",
-      "clear": "FAILED",
-      "play_count": "51",
-      "ranking": "372/6813"
+      "title": "Revenger [(^^)EXTRA]",
+      "clear": "CLEAR",
+      "play_count": "46",
+      "ranking": "405/2934"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-12T02:47:14.804590"
+  "last_updated": "2026-03-13T02:45:01.641772"
 }
