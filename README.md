@@ -1,6 +1,6 @@
 ﻿# LR2IR Player Profile Display
 
-LR2IR(LR2 Rating)サイトからプレイヤー情報を取得して、美しく表示するWebアプリケーションです。
+LR2IRからプレイヤー情報を取得して、美しく表示するWebアプリケーションです。
 
 ## ✨ 新機能：GitHub Pages での自動更新
 
