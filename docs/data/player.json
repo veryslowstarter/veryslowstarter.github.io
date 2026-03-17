@@ -8,10 +8,10 @@
     "url": "https://www.cho-kaguyahime.com/"
   },
   "played_charts": 2838,
-  "play_count": 13035,
+  "play_count": 13067,
   "clear_stats": {
-    "FULLCOMBO": "184(★7)",
-    "HARD": "1536",
+    "FULLCOMBO": "186(★7)",
+    "HARD": "1534",
     "NORMAL": "68",
     "EASY": "389",
     "FAILED": "661"
@@ -36,7 +36,7 @@
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "253/763"
+      "ranking": "253/764"
     },
     {
       "rank": "4",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
+      "title": "Reason of being [K.S-ANOTHER]",
+      "clear": "FULL COMBO",
+      "play_count": "23",
+      "ranking": "675/5673"
+    },
+    {
+      "rank": "2",
+      "title": "Party 4U (AFOTHER)",
+      "clear": "HARD CLEAR",
+      "play_count": "11",
+      "ranking": "1293/12155"
+    },
+    {
+      "rank": "3",
+      "title": "Memories of Sky-CoolDownMIX- [7another]",
+      "clear": "FULL COMBO",
+      "play_count": "10",
+      "ranking": "943/11999"
+    },
+    {
+      "rank": "4",
+      "title": "少女の檻 \"Last Night, Last Dancing.\"",
+      "clear": "HARD CLEAR",
+      "play_count": "14",
+      "ranking": "599/9705"
+    },
+    {
+      "rank": "5",
+      "title": "Red-rize \"B172 mix\" // 7keys ManiaQ",
+      "clear": "HARD CLEAR",
+      "play_count": "4",
+      "ranking": "507/8587"
+    },
+    {
+      "rank": "6",
       "title": "少女の舞葬",
       "clear": "FULL COMBO",
       "play_count": "13",
       "ranking": "878/11224"
     },
     {
-      "rank": "2",
+      "rank": "7",
       "title": "Ordeal",
       "clear": "HARD CLEAR",
       "play_count": "5",
       "ranking": "374/9882"
     },
     {
-      "rank": "3",
+      "rank": "8",
       "title": "薄雲 [六角形的]",
       "clear": "HARD CLEAR",
       "play_count": "12",
       "ranking": "315/781"
     },
     {
-      "rank": "4",
+      "rank": "9",
       "title": "endemize [Re:HAMUTHER]",
       "clear": "FAILED",
       "play_count": "4",
       "ranking": "27/69"
     },
     {
-      "rank": "5",
+      "rank": "10",
       "title": "EVERLASTING HAPPiNESS↑ [AETERNUM]",
       "clear": "FAILED",
       "play_count": "13",
       "ranking": "150/506"
-    },
-    {
-      "rank": "6",
-      "title": "Evangelize (Radio Edit)",
-      "clear": "FAILED",
-      "play_count": "9",
-      "ranking": "90/213"
-    },
-    {
-      "rank": "7",
-      "title": "飛翔するG [Leaping T]",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "34/52"
-    },
-    {
-      "rank": "8",
-      "title": "G e n g a o z o - f o o n",
-      "clear": "EASY CLEAR",
-      "play_count": "58",
-      "ranking": "860/2791"
-    },
-    {
-      "rank": "9",
-      "title": "The lost (FUNERAL)",
-      "clear": "FAILED",
-      "play_count": "17",
-      "ranking": "281/1832"
-    },
-    {
-      "rank": "10",
-      "title": "Revenger [(^^)EXTRA]",
-      "clear": "CLEAR",
-      "play_count": "46",
-      "ranking": "405/2934"
     }
   ],
   "recent_courses": [
@@ -215,7 +215,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂皆伝",
       "clear": "CLEAR",
       "play_count": "23",
-      "ranking": "683/1881"
+      "ranking": "683/1880"
     },
     {
       "rank": "9",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-16T03:24:46.184457"
+  "last_updated": "2026-03-17T02:47:23.119688"
 }
