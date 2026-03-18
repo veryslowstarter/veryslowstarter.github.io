@@ -1,11 +1,11 @@
 {
-  "player_name": "かぐや",
+  "player_name": "小林みくる",
   "lr2_id": 185532,
   "rank": "★★ / -",
-  "introduction": "月からやってきた謎の少女。\n楽しいことを求めて、仮想空間『ツクヨミ』でライバー(配信者)活動を始めてみることに。\n元気いっぱいで破天荒。彩葉のことが大好き。\n\n\n発難↓\nhttps://notepara.com/bms_table/insane1/185532\noverjoy↓\nhttps://notepara.com/bms_table/overjoy/185532\nst↓\nhttps://notepara.com/bms_table/x-stella/185532\nリコメンド↓\nhttp://walkure.net/hakkyou/recommended_mypage.html?playerid=185532\n\n@Anyoji_bms",
+  "introduction": "不器用だけどまっすぐな中学2年生の女の子。\n名探偵を目指して、まことみらい市の「キュアット探偵事務所」にやってきたばかり。\n探偵知識が豊富で誰よりも頑張り屋さん。直感よりも考えて答えを出すタイプ。\nかわいいものが何よりも大好き。\n誕生日は「4月22日」\nキュアミスティックに変身！\n「重ねた推理で笑顔にジャンプ！ 名探偵 キュアミスティック！」",
   "homepage": {
-    "text": "https://www.cho-kaguyahime.com/",
-    "url": "https://www.cho-kaguyahime.com/"
+    "text": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php",
+    "url": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php"
   },
   "played_charts": 2838,
   "play_count": 13067,
@@ -43,7 +43,7 @@
       "title": "ダークサンバランド -LAST BOSS-",
       "clear": "EASY CLEAR",
       "play_count": "90",
-      "ranking": "701/2648"
+      "ranking": "701/2649"
     },
     {
       "rank": "5",
@@ -57,7 +57,7 @@
       "title": "subconsciousness [Freud]",
       "clear": "★FULLCOMBO",
       "play_count": "69",
-      "ranking": "50/1401"
+      "ranking": "50/1402"
     },
     {
       "rank": "7",
@@ -71,7 +71,7 @@
       "title": "Danger Love (cheap sound mix) [DX-]",
       "clear": "HARD CLEAR",
       "play_count": "58",
-      "ranking": "76/254"
+      "ranking": "76/258"
     },
     {
       "rank": "9",
@@ -94,7 +94,7 @@
       "title": "Reason of being [K.S-ANOTHER]",
       "clear": "FULL COMBO",
       "play_count": "23",
-      "ranking": "675/5673"
+      "ranking": "675/5674"
     },
     {
       "rank": "2",
@@ -180,14 +180,14 @@
       "title": "GENOSIDE 2018 段位認定 発狂二段",
       "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "133/4358"
+      "ranking": "133/4359"
     },
     {
       "rank": "4",
       "title": "GENOSIDE 2018 段位認定 発狂初段",
       "clear": "HARD CLEAR",
       "play_count": "2",
-      "ranking": "122/5576"
+      "ranking": "122/5577"
     },
     {
       "rank": "5",
@@ -222,7 +222,7 @@
       "title": "発狂BMS段位認定  皆伝",
       "clear": "CLEAR",
       "play_count": "12",
-      "ranking": "54/1852"
+      "ranking": "54/1853"
     },
     {
       "rank": "10",
@@ -234,12 +234,12 @@
   ],
   "bbs_comments": [
     {
-      "player": "かぐや",
+      "player": "小林みくる",
       "text": "対戦、よろしくお願いします！！",
       "date": "2025-05-02 01:24:50"
     },
     {
-      "player": "かぐや",
+      "player": "小林みくる",
       "text": "百地たまてじゃないよ",
       "date": "2024-08-01 18:02:29"
     },
@@ -249,7 +249,7 @@
       "date": "2024-07-19 01:23:29"
     },
     {
-      "player": "かぐや",
+      "player": "小林みくる",
       "text": "きたーーーーー",
       "date": "2024-07-16 22:58:09"
     }
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-17T02:47:23.119688"
+  "last_updated": "2026-03-18T02:53:53.191709"
 }
