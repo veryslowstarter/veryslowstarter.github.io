@@ -7,14 +7,14 @@
     "text": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php",
     "url": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php"
   },
-  "played_charts": 2845,
-  "play_count": 13127,
+  "played_charts": 2854,
+  "play_count": 13158,
   "clear_stats": {
-    "FULLCOMBO": "187(★7)",
-    "HARD": "1535",
+    "FULLCOMBO": "188(★7)",
+    "HARD": "1540",
     "NORMAL": "68",
-    "EASY": "390",
-    "FAILED": "665"
+    "EASY": "392",
+    "FAILED": "666"
   },
   "favorite_songs": [
     {
@@ -71,7 +71,7 @@
       "title": "Danger Love (cheap sound mix) [DX-]",
       "clear": "HARD CLEAR",
       "play_count": "58",
-      "ranking": "76/258"
+      "ranking": "76/259"
     },
     {
       "rank": "9",
@@ -85,79 +85,79 @@
       "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
       "clear": "EASY CLEAR",
       "play_count": "52",
-      "ranking": "196/2888"
+      "ranking": "196/2889"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "MASAMUNE [三日月]",
+      "title": "memories",
       "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "630/4457"
+      "play_count": "5",
+      "ranking": "6/48"
     },
     {
       "rank": "2",
-      "title": "88D [小さい]",
-      "clear": "HARD CLEAR",
-      "play_count": "10",
-      "ranking": "179/7899"
+      "title": "memories",
+      "clear": "FULL COMBO",
+      "play_count": "6",
+      "ranking": "7/102"
     },
     {
       "rank": "3",
-      "title": "THE ONE [EX]",
-      "clear": "HARD CLEAR",
-      "play_count": "7",
-      "ranking": "374/7085"
+      "title": "LEthAl wEApOn -ALIthER-",
+      "clear": "CLEAR",
+      "play_count": "10",
+      "ranking": "216/1051"
     },
     {
       "rank": "4",
-      "title": "GOODMEN [踏十里駅から徒歩10分]",
-      "clear": "HARD CLEAR",
-      "play_count": "9",
-      "ranking": "912/5415"
+      "title": "Verwirrung [\\]|[\\]||[/]|[/]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "19/44"
     },
     {
       "rank": "5",
-      "title": "sensitive (虎のANOTHER)",
+      "title": "LeVeL uP! [SP MAX]",
       "clear": "HARD CLEAR",
-      "play_count": "10",
-      "ranking": "432/10707"
+      "play_count": "1",
+      "ranking": "41/116"
     },
     {
       "rank": "6",
-      "title": "Ordeal",
-      "clear": "HARD CLEAR",
-      "play_count": "6",
-      "ranking": "374/9881"
+      "title": "\"Fulcrum-D\" [FINAL DIVE]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "46/58"
     },
     {
       "rank": "7",
-      "title": "LaT [Buster]",
+      "title": "Luminaria [Deep in Abyss]",
       "clear": "FAILED",
       "play_count": "2",
-      "ranking": "168/234"
+      "ranking": "78/169"
     },
     {
       "rank": "8",
-      "title": "滝行Lv28 [Angelfalls]",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "11/13"
+      "title": "adolescent person [dark past]",
+      "clear": "EASY CLEAR",
+      "play_count": "2",
+      "ranking": "30/76"
     },
     {
       "rank": "9",
-      "title": "Disco Balls [Other]",
+      "title": "Icyxis [SUMMIT]",
       "clear": "FAILED",
-      "play_count": "7",
-      "ranking": "166/398"
+      "play_count": "2",
+      "ranking": "185/226"
     },
     {
       "rank": "10",
-      "title": "Jasmine Tea Girl",
-      "clear": "FAILED",
-      "play_count": "4",
-      "ranking": "139/307"
+      "title": "霧雨魔理沙は独りで嘲う [(^^)OVERDRIVE]",
+      "clear": "EASY CLEAR",
+      "play_count": "2",
+      "ranking": "129/387"
     }
   ],
   "recent_courses": [
@@ -187,14 +187,14 @@
       "title": "GENOSIDE 2018 段位認定 発狂二段",
       "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "133/4361"
+      "ranking": "133/4362"
     },
     {
       "rank": "5",
       "title": "GENOSIDE 2018 段位認定 発狂初段",
       "clear": "HARD CLEAR",
       "play_count": "2",
-      "ranking": "122/5578"
+      "ranking": "122/5579"
     },
     {
       "rank": "6",
@@ -222,7 +222,7 @@
       "title": "GENOSIDE 2018 段位認定 発狂皆伝",
       "clear": "CLEAR",
       "play_count": "23",
-      "ranking": "682/1881"
+      "ranking": "682/1882"
     },
     {
       "rank": "10",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-28T02:51:24.172965"
+  "last_updated": "2026-03-29T03:25:45.987768"
 }
