@@ -7,11 +7,11 @@
     "text": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php",
     "url": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php"
   },
-  "played_charts": 2854,
-  "play_count": 13158,
+  "played_charts": 2856,
+  "play_count": 13221,
   "clear_stats": {
-    "FULLCOMBO": "188(★7)",
-    "HARD": "1540",
+    "FULLCOMBO": "193(★7)",
+    "HARD": "1537",
     "NORMAL": "68",
     "EASY": "392",
     "FAILED": "666"
@@ -29,7 +29,7 @@
       "title": "Love & Justice [GOD]",
       "clear": "HARD CLEAR",
       "play_count": "119",
-      "ranking": "373/4016"
+      "ranking": "373/4017"
     },
     {
       "rank": "3",
@@ -82,82 +82,82 @@
     },
     {
       "rank": "10",
-      "title": "%E3%83%96%E3%83%B3%E3%82%BF%E3%83%B3 ～Falling in \"B\" mix～ (EXPERT)",
-      "clear": "EASY CLEAR",
-      "play_count": "52",
-      "ranking": "196/2889"
+      "title": "Qualia [Quantia]",
+      "clear": "HARD CLEAR",
+      "play_count": "53",
+      "ranking": "247/1450"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "地球塔デヴォーション",
-      "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "682/15041"
+      "title": "Jade Star [Dimlight]",
+      "clear": "FULL COMBO",
+      "play_count": "6",
+      "ranking": "34/488"
     },
     {
       "rank": "2",
-      "title": "memories",
+      "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
-      "play_count": "5",
-      "ranking": "6/48"
+      "play_count": "53",
+      "ranking": "247/1450"
     },
     {
       "rank": "3",
-      "title": "memories",
-      "clear": "FULL COMBO",
-      "play_count": "6",
-      "ranking": "7/102"
+      "title": "Lost World [EX7]",
+      "clear": "HARD CLEAR",
+      "play_count": "28",
+      "ranking": "10/124"
     },
     {
       "rank": "4",
-      "title": "LEthAl wEApOn -ALIthER-",
-      "clear": "CLEAR",
-      "play_count": "10",
-      "ranking": "216/1051"
+      "title": "Freja [yumether]",
+      "clear": "HARD CLEAR",
+      "play_count": "2",
+      "ranking": "1/812"
     },
     {
       "rank": "5",
-      "title": "Verwirrung [\\]|[\\]||[/]|[/]",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "19/44"
+      "title": "Rechronize [INSANE]",
+      "clear": "HARD CLEAR",
+      "play_count": "3",
+      "ranking": "55/422"
     },
     {
       "rank": "6",
-      "title": "LeVeL uP! [SP MAX]",
-      "clear": "HARD CLEAR",
-      "play_count": "1",
-      "ranking": "41/116"
+      "title": "FREEZE [SP ANOTHER]",
+      "clear": "FULL COMBO",
+      "play_count": "2",
+      "ranking": "33/324"
     },
     {
       "rank": "7",
-      "title": "\"Fulcrum-D\" [FINAL DIVE]",
-      "clear": "FAILED",
-      "play_count": "1",
-      "ranking": "46/58"
+      "title": "キメラ",
+      "clear": "FULL COMBO",
+      "play_count": "6",
+      "ranking": "220/6925"
     },
     {
       "rank": "8",
-      "title": "Luminaria [Deep in Abyss]",
-      "clear": "FAILED",
-      "play_count": "2",
-      "ranking": "78/169"
+      "title": "Lambda Driver [ANOTHER+]",
+      "clear": "HARD CLEAR",
+      "play_count": "3",
+      "ranking": "239/5796"
     },
     {
       "rank": "9",
-      "title": "adolescent person [dark past]",
-      "clear": "EASY CLEAR",
-      "play_count": "2",
-      "ranking": "30/76"
+      "title": "ヒメタイプ [F]",
+      "clear": "HARD CLEAR",
+      "play_count": "16",
+      "ranking": "309/5423"
     },
     {
       "rank": "10",
-      "title": "Icyxis [SUMMIT]",
-      "clear": "FAILED",
-      "play_count": "2",
-      "ranking": "185/227"
+      "title": "Stargazer [流星雨が降る夜に]",
+      "clear": "FULL COMBO",
+      "play_count": "13",
+      "ranking": "467/3830"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-30T03:28:51.249146"
+  "last_updated": "2026-03-31T03:19:38.727166"
 }
