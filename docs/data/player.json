@@ -7,14 +7,14 @@
     "text": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php",
     "url": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php"
   },
-  "played_charts": 2856,
-  "play_count": 13221,
+  "played_charts": 2858,
+  "play_count": 13283,
   "clear_stats": {
-    "FULLCOMBO": "193(★7)",
-    "HARD": "1537",
+    "FULLCOMBO": "199(★7)",
+    "HARD": "1532",
     "NORMAL": "68",
     "EASY": "392",
-    "FAILED": "666"
+    "FAILED": "667"
   },
   "favorite_songs": [
     {
@@ -36,7 +36,7 @@
       "title": "ミシロタウン2014 [Hexagon]",
       "clear": "CLEAR",
       "play_count": "108",
-      "ranking": "253/764"
+      "ranking": "253/765"
     },
     {
       "rank": "4",
@@ -91,73 +91,73 @@
   "recent_songs": [
     {
       "rank": "1",
-      "title": "Jade Star [Dimlight]",
+      "title": "F -Extra-",
       "clear": "FULL COMBO",
-      "play_count": "6",
-      "ranking": "34/488"
+      "play_count": "12",
+      "ranking": "216/9257"
     },
     {
       "rank": "2",
-      "title": "Qualia [Quantia]",
+      "title": "THE ONE [EX]",
       "clear": "HARD CLEAR",
-      "play_count": "53",
-      "ranking": "247/1450"
+      "play_count": "21",
+      "ranking": "376/7086"
     },
     {
       "rank": "3",
-      "title": "Lost World [EX7]",
+      "title": "eve solstice mix -kuso-",
       "clear": "HARD CLEAR",
-      "play_count": "28",
-      "ranking": "10/124"
+      "play_count": "6",
+      "ranking": "581/8137"
     },
     {
       "rank": "4",
-      "title": "Freja [yumether]",
+      "title": "Imperishable Night 2006 -SP ANOTHER-",
       "clear": "HARD CLEAR",
-      "play_count": "2",
-      "ranking": "1/812"
+      "play_count": "8",
+      "ranking": "1247/18698"
     },
     {
       "rank": "5",
-      "title": "Rechronize [INSANE]",
+      "title": "Ordeal",
       "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "55/422"
+      "play_count": "7",
+      "ranking": "374/9881"
     },
     {
       "rank": "6",
-      "title": "FREEZE [SP ANOTHER]",
-      "clear": "FULL COMBO",
-      "play_count": "2",
-      "ranking": "33/324"
+      "title": "Vorota [sLUNATIC]",
+      "clear": "HARD CLEAR",
+      "play_count": "20",
+      "ranking": "180/7692"
     },
     {
       "rank": "7",
-      "title": "キメラ",
-      "clear": "FULL COMBO",
-      "play_count": "6",
-      "ranking": "220/6925"
+      "title": "A c i - L - A",
+      "clear": "HARD CLEAR",
+      "play_count": "14",
+      "ranking": "587/16529"
     },
     {
       "rank": "8",
-      "title": "Lambda Driver [ANOTHER+]",
+      "title": "sensitive (AFOTHER)",
       "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "239/5796"
+      "play_count": "5",
+      "ranking": "2032/7994"
     },
     {
       "rank": "9",
-      "title": "ヒメタイプ [F]",
+      "title": "Evangelize (Radio Edit) (SP ミラクル)",
       "clear": "HARD CLEAR",
-      "play_count": "16",
-      "ranking": "309/5423"
+      "play_count": "3",
+      "ranking": "2077/8462"
     },
     {
       "rank": "10",
-      "title": "Stargazer [流星雨が降る夜に]",
-      "clear": "FULL COMBO",
-      "play_count": "13",
-      "ranking": "467/3830"
+      "title": "Retroactive Rain (ANOTHER+)",
+      "clear": "HARD CLEAR",
+      "play_count": "9",
+      "ranking": "333/8426"
     }
   ],
   "recent_courses": [
@@ -187,14 +187,14 @@
       "title": "GENOSIDE 2018 段位認定 発狂二段",
       "clear": "HARD CLEAR",
       "play_count": "1",
-      "ranking": "133/4362"
+      "ranking": "133/4363"
     },
     {
       "rank": "5",
       "title": "GENOSIDE 2018 段位認定 発狂初段",
       "clear": "HARD CLEAR",
       "play_count": "2",
-      "ranking": "122/5579"
+      "ranking": "122/5580"
     },
     {
       "rank": "6",
@@ -215,7 +215,7 @@
       "title": "Stella Skill Simulator 4th st6",
       "clear": "CLEAR",
       "play_count": "2",
-      "ranking": "13/105"
+      "ranking": "13/106"
     },
     {
       "rank": "9",
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-03-31T03:19:38.727166"
+  "last_updated": "2026-04-01T03:32:34.395095"
 }
