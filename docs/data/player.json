@@ -7,14 +7,14 @@
     "text": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php",
     "url": "https://www.toei-anim.co.jp/tv/precure/character/mystique.php"
   },
-  "played_charts": 2858,
-  "play_count": 13283,
+  "played_charts": 2871,
+  "play_count": 13351,
   "clear_stats": {
-    "FULLCOMBO": "199(★7)",
+    "FULLCOMBO": "202(★7)",
     "HARD": "1532",
     "NORMAL": "68",
     "EASY": "392",
-    "FAILED": "667"
+    "FAILED": "677"
   },
   "favorite_songs": [
     {
@@ -63,8 +63,8 @@
       "rank": "7",
       "title": "G e n g a o z o - f o o n",
       "clear": "EASY CLEAR",
-      "play_count": "58",
-      "ranking": "860/2791"
+      "play_count": "59",
+      "ranking": "859/2791"
     },
     {
       "rank": "8",
@@ -78,86 +78,86 @@
       "title": "★LittlE HearTs★ (GOD)",
       "clear": "EASY CLEAR",
       "play_count": "53",
-      "ranking": "809/6216"
+      "ranking": "809/6217"
     },
     {
       "rank": "10",
       "title": "Qualia [Quantia]",
       "clear": "HARD CLEAR",
       "play_count": "53",
-      "ranking": "247/1450"
+      "ranking": "247/1451"
     }
   ],
   "recent_songs": [
     {
       "rank": "1",
-      "title": "F -Extra-",
+      "title": "THE ONE [EX]",
       "clear": "FULL COMBO",
-      "play_count": "12",
-      "ranking": "216/9257"
+      "play_count": "22",
+      "ranking": "377/7087"
     },
     {
       "rank": "2",
-      "title": "THE ONE [EX]",
+      "title": "carnot (EX)",
       "clear": "HARD CLEAR",
-      "play_count": "21",
-      "ranking": "376/7087"
+      "play_count": "5",
+      "ranking": "325/8003"
     },
     {
       "rank": "3",
-      "title": "eve solstice mix -kuso-",
+      "title": "zodiac -Extra-",
       "clear": "HARD CLEAR",
-      "play_count": "6",
-      "ranking": "581/8137"
+      "play_count": "2",
+      "ranking": "543/7723"
     },
     {
       "rank": "4",
-      "title": "Imperishable Night 2006 -SP ANOTHER-",
+      "title": "ＤＱⅢ　Battle -Normal-",
       "clear": "HARD CLEAR",
       "play_count": "8",
-      "ranking": "1247/18699"
+      "ranking": "924/9657"
     },
     {
       "rank": "5",
-      "title": "Ordeal",
-      "clear": "HARD CLEAR",
-      "play_count": "7",
-      "ranking": "374/9881"
+      "title": "NS22 [Kvama]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "15/15"
     },
     {
       "rank": "6",
-      "title": "Vorota [sLUNATIC]",
-      "clear": "HARD CLEAR",
-      "play_count": "20",
-      "ranking": "180/7692"
+      "title": "Karakuri Plum -Kuso-",
+      "clear": "EASY CLEAR",
+      "play_count": "6",
+      "ranking": "136/645"
     },
     {
       "rank": "7",
-      "title": "A c i - L - A",
-      "clear": "HARD CLEAR",
-      "play_count": "14",
-      "ranking": "587/16529"
+      "title": "Karakuri Plum -Lunatic-",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "237/850"
     },
     {
       "rank": "8",
-      "title": "sensitive (AFOTHER)",
-      "clear": "HARD CLEAR",
-      "play_count": "5",
-      "ranking": "2032/7995"
+      "title": "レシュノルティア [Ephemeral Bloom]",
+      "clear": "FAILED",
+      "play_count": "1",
+      "ranking": "5/10"
     },
     {
       "rank": "9",
-      "title": "Evangelize (Radio Edit) (SP ミラクル)",
-      "clear": "HARD CLEAR",
-      "play_count": "3",
-      "ranking": "2077/8462"
+      "title": "Jinshing smile",
+      "clear": "FAILED",
+      "play_count": "4",
+      "ranking": "107/191"
     },
     {
       "rank": "10",
-      "title": "Retroactive Rain (ANOTHER+)",
-      "clear": "HARD CLEAR",
-      "play_count": "9",
-      "ranking": "333/8427"
+      "title": "METABOKNIGHT [BOOT CAMP]",
+      "clear": "FAILED",
+      "play_count": "15",
+      "ranking": "200/474"
     }
   ],
   "recent_courses": [
@@ -263,5 +263,5 @@
     "2p当たり2",
     "AYA.K"
   ],
-  "last_updated": "2026-04-02T03:15:46.932182"
+  "last_updated": "2026-04-03T03:17:50.004642"
 }
